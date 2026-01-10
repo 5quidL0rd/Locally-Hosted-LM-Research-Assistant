@@ -62,11 +62,11 @@ pip install -r requirements.txt
 ```
 
 Usage
-```bash
-python main.py
-Once running, you can interact naturally:
-You: Search arXiv for transformers, download top 2, analyze them
+![Assistant Interface](./Screenshot%202026-01-06%20155055.png)
 
+Once running, you can interact naturally:
+```
+You: Search arXiv for transformers, download top 2, analyze them
 
 You: Find papers about machine learning
 
@@ -80,36 +80,9 @@ You: Train MLP on this dataset
 You: Search HuggingFace for llama models
 
 You: Download that dataset
-Example Conversations
-Academic Research:
-You: Find papers about machine learning
-Assistant: [Searches arXiv and presents relevant papers]
-
-You: Download the first paper and analyze it
-Assistant: [Downloads and provides analysis]
-Dataset Analysis:
-You: Search Kaggle for bitcoin dataset
-Assistant: [Shows available datasets]
-
-You: Download 1
-Assistant: [Downloads specified dataset]
-
-You: Train LSTM on this data
-Assistant: [Trains model and shows results]
-Model Discovery:
-You: Search HuggingFace for sentiment analysis models
-Assistant: [Lists relevant models with descriptions]
-
-You: Download the top one
-Assistant: [Downloads model to local storage]
 ```
 
-Screenshots of run in progress:
-
-![Assistant Interface](./Screenshot%2026-01-06%155055.png)
-
-![Assistant Interface](./Screenshot%202026-01-06%20155155.png)
-
+![Assistant Results](./Screenshot%202026-01-06%20155155.png)
 Roadmap
 This project is under active development. Upcoming improvements include:
 
