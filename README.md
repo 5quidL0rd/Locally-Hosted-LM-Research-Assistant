@@ -83,32 +83,42 @@ You: Download that dataset
 ```
 
 ![Assistant Results](./Screenshot%202026-01-06%20155155.png)
-Roadmap
+
+
+# Roadmap
+
 This project is under active development. Upcoming improvements include:
 
-Enhanced multi-modal capabilities (image and document analysis)
-Additional neural network architectures (CNNs, Transformers)
-Improved conversation memory and context handling
-Web interface for easier interaction
-Batch processing for multiple papers/datasets
-Custom training configurations and hyperparameter tuning
-Integration with additional data sources
-Model fine-tuning capabilities
+1) Enhanced multi-modal capabilities (image and document analysis)
+2) Additional neural network architectures (CNNs, Transformers)
+3) mproved conversation memory and context handling
+4) Web interface for easier interaction
+5) Batch processing for multiple papers/datasets
+6) Custom training configurations and hyperparameter tuning
+7) Integration with additional data sources
+8) Model fine-tuning capabilities
 
 Technical Details
 
-LLM: OpenAI GPT-OSS-20B (locally hosted)
+LLM: OpenAI GPT-OSS-20B (locally hosted, courtesy of LM Studio) 
+
 ML Frameworks: PyTorch, TensorFlow
+
 APIs: arXiv API, Kaggle API, Hugging Face Hub API
+
 Architecture: Multi-agent system with specialized handlers
 
 
-Acknowledgments
+# Acknowledgments 
 
 OpenAI for GPT-OSS-20B
+
 arXiv for academic paper access
+
 Kaggle for dataset hosting
+
 Hugging Face for model hosting
 
 
-Note: This assistant runs entirely on your local machine, giving you full control over your data and research workflow.
+
+## Note: This assistant runs entirely on your local machine, giving you full control over your data and research workflow.
