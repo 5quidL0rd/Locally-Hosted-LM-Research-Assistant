@@ -1,0 +1,9 @@
+requests>=2.31.0
+tqdm>=4.66.1
+duckduckgo-search>=2.7.3
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+PyPDF2==2.12.1
+langchain-community
+pypdf
+ddgs

@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+raw_stream.log
+hf_cache
+arxiv_papers
+kaggle_datasets
+
