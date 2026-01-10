@@ -102,7 +102,13 @@ Assistant: [Lists relevant models with descriptions]
 
 You: Download the top one
 Assistant: [Downloads model to local storage]
-``` 
+```
+
+Screenshots of run in progress:
+
+![Assistant Interface](./Screenshot%2026-01-06%155055.png)
+
+![Assistant Interface](./Screenshot%202026-01-06%20155155.png)
 
 Roadmap
 This project is under active development. Upcoming improvements include:
