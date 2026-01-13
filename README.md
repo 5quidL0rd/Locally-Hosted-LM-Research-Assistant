@@ -110,7 +110,7 @@ This project is under active development. Upcoming improvements include:
 
 1) Enhanced multi-modal capabilities (image and document analysis)
 2) Additional neural network architectures (CNNs, Transformers)
-3) mproved conversation memory and context handling
+3) Improved conversation memory and context handling
 4) Web interface for easier interaction
 5) Batch processing for multiple papers/datasets
 6) Custom training configurations and hyperparameter tuning
