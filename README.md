@@ -13,32 +13,53 @@ Kaggle Integration: Search and download datasets directly from Kaggle
 Browse available datasets through conversation
 Quick download by specifying dataset name after search - after searching datasets, put the name of the dataset as your first input in the chat
 
+![Assistant Interface](./Screenshot%202026-01-06%20155055.png)
+
 🤖 Neural Network Training
 
 Built-in ML Capabilities: Train models on downloaded datasets without writing code
+
 LSTM Networks: For sequential and time-series data analysis
+
 MLP Networks: For general classification and regression tasks
+
 Automatic results visualization and performance metrics
+
+![Assistant Results](./Screenshot%202026-01-06%20155155.png)
 
 🤗 Hugging Face Integration
 
 Search the Hugging Face model hub for pre-trained models
+
 Download models directly for local experimentation
+
 Easy model discovery through natural language queries
+
+Example:
+
+![Assistant Interface](./Screenshot%202026-01-04%20142844.png)
+
+
 
 💬 General Conversation
 
 Natural language interface for all operations
+
 Context-aware responses to general questions
+
 Multi-agent architecture for handling complex queries
 
 Architecture
 This project uses a multi-agent setup where specialized agents handle different types of requests:
 
 Research Agent: Handles arXiv paper searches and analysis
+
 Dataset Agent: Manages Kaggle dataset operations
+
 Training Agent: Executes neural network training and evaluation
+
 Model Agent: Interfaces with Hugging Face model hub
+
 Conversation Agent: Manages general queries and coordinates between agents
 
 All processing happens locally on your machine—no data is sent to external APIs beyond the necessary searches.
@@ -61,8 +82,7 @@ pip install -r requirements.txt
 # Place your kaggle.json in ~/.kaggle/
 ```
 
-Usage
-![Assistant Interface](./Screenshot%202026-01-06%20155055.png)
+
 
 Once running, you can interact naturally:
 ```
@@ -82,7 +102,6 @@ You: Search HuggingFace for llama models
 You: Download that dataset
 ```
 
-![Assistant Results](./Screenshot%202026-01-06%20155155.png)
 
 
 # Roadmap
