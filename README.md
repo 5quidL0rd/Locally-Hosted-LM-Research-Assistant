@@ -1,4 +1,4 @@
-# 🤖 Conversational Research Assistant 🤖
+# Conversational AI Research Assistant 
 A locally-hosted AI research assistant powered by OpenAI's GPT-OSS-20B that provides intelligent conversation, academic research capabilities, dataset analysis, and neural network training—all through a natural language interface. This uses a multi-agent setup, is all local, and will be seeing improvements in the very near future.
 Features
 🔬 Academic Research
