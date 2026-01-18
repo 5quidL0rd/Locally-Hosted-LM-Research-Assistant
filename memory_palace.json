@@ -517,7 +517,7 @@
         "published": "2023-06-07 11:08:12+00:00",
         "arxiv_id": "2306.04338v1"
       },
-      "timestamp": "2026-01-05T19:38:54.809444",
+      "timestamp": "2026-01-15T14:45:52.004212",
       "id": "paper_2306.04338v1"
     },
     {
@@ -560,7 +560,7 @@
         "published": "2020-06-25 12:01:39+00:00",
         "arxiv_id": "2006.16189v4"
       },
-      "timestamp": "2026-01-05T19:38:54.840426",
+      "timestamp": "2026-01-15T14:45:52.067812",
       "id": "paper_2006.16189v4"
     },
     {
@@ -593,7 +593,7 @@
         "published": "2022-01-28 14:34:32+00:00",
         "arxiv_id": "2201.12150v2"
       },
-      "timestamp": "2026-01-05T19:38:54.863731",
+      "timestamp": "2026-01-15T14:45:52.099701",
       "id": "paper_2201.12150v2"
     },
     {
@@ -1499,8 +1499,8 @@
       "data": {
         "id": "timm/mobilenetv3_small_100.lamb_in1k",
         "author": null,
-        "downloads": 17652130,
-        "likes": 44,
+        "downloads": 19169148,
+        "likes": 45,
         "pipeline_tag": "image-classification",
         "tags": [
           "timm",
@@ -1515,7 +1515,7 @@
           "region:us"
         ]
       },
-      "timestamp": "2026-01-05T21:10:53.377552",
+      "timestamp": "2026-01-18T12:40:26.120343",
       "id": "hf_model_timm_mobilenetv3_small_100.lamb_in1k"
     },
     {
@@ -1526,7 +1526,7 @@
       "data": {
         "id": "autogluon/chronos-bolt-small",
         "author": null,
-        "downloads": 7679545,
+        "downloads": 8902254,
         "likes": 22,
         "pipeline_tag": "time-series-forecasting",
         "tags": [
@@ -1545,7 +1545,7 @@
           "region:us"
         ]
       },
-      "timestamp": "2026-01-05T21:10:53.539296",
+      "timestamp": "2026-01-18T12:40:26.338866",
       "id": "hf_model_autogluon_chronos-bolt-small"
     },
     {
@@ -1553,8 +1553,8 @@
       "data": {
         "id": "hustvl/vitmatte-small-composition-1k",
         "author": null,
-        "downloads": 4681441,
-        "likes": 50,
+        "downloads": 3715527,
+        "likes": 52,
         "pipeline_tag": null,
         "tags": [
           "transformers",
@@ -1568,7 +1568,7 @@
           "region:us"
         ]
       },
-      "timestamp": "2026-01-05T21:10:53.572972",
+      "timestamp": "2026-01-18T12:40:26.376656",
       "id": "hf_model_hustvl_vitmatte-small-composition-1k"
     },
     {
@@ -1576,8 +1576,8 @@
       "data": {
         "id": "BAAI/bge-small-en-v1.5",
         "author": null,
-        "downloads": 2988730,
-        "likes": 394,
+        "downloads": 3138718,
+        "likes": 397,
         "pipeline_tag": "feature-extraction",
         "tags": [
           "sentence-transformers",
@@ -1603,7 +1603,7 @@
           "region:us"
         ]
       },
-      "timestamp": "2026-01-05T21:10:53.611705",
+      "timestamp": "2026-01-18T12:40:26.435187",
       "id": "hf_model_BAAI_bge-small-en-v1.5"
     },
     {
@@ -1766,8 +1766,8 @@
       "data": {
         "id": "prajjwal1/bert-tiny",
         "author": null,
-        "downloads": 5345299,
-        "likes": 134,
+        "downloads": 4545700,
+        "likes": 135,
         "pipeline_tag": null,
         "tags": [
           "transformers",
@@ -1785,7 +1785,7 @@
           "region:us"
         ]
       },
-      "timestamp": "2026-01-05T21:35:07.264731",
+      "timestamp": "2026-01-18T11:59:37.640796",
       "id": "hf_model_prajjwal1_bert-tiny"
     },
     {
@@ -2295,7 +2295,7 @@
         "published": "2023-02-17 14:24:13+00:00",
         "arxiv_id": "2302.08893v4"
       },
-      "timestamp": "2026-01-05T19:38:54.880705",
+      "timestamp": "2026-01-15T14:45:52.133607",
       "id": "paper_2302.08893v4"
     },
     {
@@ -2311,7 +2311,7 @@
         "published": "2023-04-05 11:35:17+00:00",
         "arxiv_id": "2304.02381v2"
       },
-      "timestamp": "2026-01-05T19:38:54.910008",
+      "timestamp": "2026-01-15T14:45:52.172630",
       "id": "paper_2304.02381v2"
     },
     {
@@ -2806,7 +2806,7 @@
         "published": "2010-05-03 13:08:23+00:00",
         "arxiv_id": "1005.0280v6"
       },
-      "timestamp": "2026-01-06T13:51:32.952590",
+      "timestamp": "2026-01-15T14:20:02.926076",
       "id": "paper_1005.0280v6"
     },
     {
@@ -2824,7 +2824,7 @@
         "published": "2013-04-06 00:18:59+00:00",
         "arxiv_id": "1304.1836v2"
       },
-      "timestamp": "2026-01-06T13:51:32.900425",
+      "timestamp": "2026-01-15T14:20:02.849441",
       "id": "paper_1304.1836v2"
     },
     {
@@ -2840,7 +2840,7 @@
         "published": "2010-11-26 10:21:14+00:00",
         "arxiv_id": "1011.5746v2"
       },
-      "timestamp": "2026-01-06T13:51:32.974414",
+      "timestamp": "2026-01-15T14:20:02.977464",
       "id": "paper_1011.5746v2"
     },
     {
@@ -2856,7 +2856,7 @@
         "published": "2010-01-13 18:39:25+00:00",
         "arxiv_id": "1001.2258v2"
       },
-      "timestamp": "2026-01-06T13:51:33.008694",
+      "timestamp": "2026-01-15T14:20:03.057777",
       "id": "paper_1001.2258v2"
     },
     {
@@ -2871,7 +2871,7 @@
         "published": "2007-03-03 20:06:32+00:00",
         "arxiv_id": "0703020v3"
       },
-      "timestamp": "2026-01-06T13:51:33.044276",
+      "timestamp": "2026-01-15T14:19:24.436124",
       "id": "paper_0703020v3"
     },
     {
@@ -4322,6 +4322,1587 @@
     },
     {
       "id": "Search arxiv for papers on diffusion models"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "Revisiting the Othello World Model Hypothesis",
+        "authors": [
+          "Yifei Yuan",
+          "Anders S\u00f8gaard"
+        ],
+        "summary": "Li et al. (2023) used the Othello board game as a test case for the ability of GPT-2 to induce world models, and were followed up by Nanda et al. (2023b). We briefly discuss the original experiments, expanding them to include more language models with more comprehensive probing. Specifically, we analyze sequences of Othello board states and train the model to predict the next move based on previous moves. We evaluate seven language models (GPT-2, T5, Bart, Flan-T5, Mistral, LLaMA-2, and Qwen2.5) on the Othello task and conclude that these models not only learn to play Othello, but also induce the Othello board layout. We find that all models achieve up to 99% accuracy in unsupervised grounding and exhibit high similarity in the board features they learned. This provides considerably stronger evidence for the Othello World Model Hypothesis than previous works.",
+        "pdf_url": "https://arxiv.org/pdf/2503.04421v1",
+        "published": "2025-03-06 13:26:58+00:00",
+        "arxiv_id": "2503.04421v1"
+      },
+      "timestamp": "2026-01-12T19:46:02.537078",
+      "id": "paper_2503.04421v1"
+    },
+    {
+      "id": "Find papers on world models"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "Improving World Models using Deep Supervision with Linear Probes",
+        "authors": [
+          "Andrii Zahorodnii"
+        ],
+        "summary": "Developing effective world models is crucial for creating artificial agents that can reason about and navigate complex environments. In this paper, we investigate a deep supervision technique for encouraging the development of a world model in a network trained end-to-end to predict the next observation. While deep supervision has been widely applied for task-specific learning, our focus is on improving the world models. Using an experimental environment based on the Flappy Bird game, where the agent receives only LIDAR measurements as observations, we explore the effect of adding a linear probe component to the network's loss function. This additional term encourages the network to encode a subset of the true underlying world features into its hidden state. Our experiments demonstrate that this supervision technique improves both training and test performance, enhances training stability, and results in more easily decodable world features -- even for those world features which were not included in the training. Furthermore, we observe a reduced distribution drift in networks trained with the linear probe, particularly during high-variability phases of the game (flying between successive pipe encounters). Including the world features loss component roughly corresponded to doubling the model size, suggesting that the linear probe technique is particularly beneficial in compute-limited settings or when aiming to achieve the best performance with smaller models. These findings contribute to our understanding of how to develop more robust and sophisticated world models in artificial agents, paving the way for further advancements in this field.",
+        "pdf_url": "https://arxiv.org/pdf/2504.03861v1",
+        "published": "2025-04-04 18:35:21+00:00",
+        "arxiv_id": "2504.03861v1"
+      },
+      "timestamp": "2026-01-12T19:46:02.660079",
+      "id": "paper_2504.03861v1"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "From Masks to Worlds: A Hitchhiker's Guide to World Models",
+        "authors": [
+          "Jinbin Bai",
+          "Yu Lei",
+          "Hecong Wu",
+          "Yuchen Zhu",
+          "Shufan Li",
+          "Yi Xin",
+          "Xiangtai Li",
+          "Molei Tao",
+          "Aditya Grover",
+          "Ming-Hsuan Yang"
+        ],
+        "summary": "This is not a typical survey of world models; it is a guide for those who want to build worlds. We do not aim to catalog every paper that has ever mentioned a ``world model\". Instead, we follow one clear road: from early masked models that unified representation learning across modalities, to unified architectures that share a single paradigm, then to interactive generative models that close the action-perception loop, and finally to memory-augmented systems that sustain consistent worlds over time. We bypass loosely related branches to focus on the core: the generative heart, the interactive loop, and the memory system. We show that this is the most promising path towards true world models.",
+        "pdf_url": "https://arxiv.org/pdf/2510.20668v1",
+        "published": "2025-10-23 15:46:44+00:00",
+        "arxiv_id": "2510.20668v1"
+      },
+      "timestamp": "2026-01-12T19:46:02.755678",
+      "id": "paper_2510.20668v1"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "Web World Models",
+        "authors": [
+          "Jichen Feng",
+          "Yifan Zhang",
+          "Chenggong Zhang",
+          "Yifu Lu",
+          "Shilong Liu",
+          "Mengdi Wang"
+        ],
+        "summary": "Language agents increasingly require persistent worlds in which they can act, remember, and learn. Existing approaches sit at two extremes: conventional web frameworks provide reliable but fixed contexts backed by databases, while fully generative world models aim for unlimited environments at the expense of controllability and practical engineering. In this work, we introduce the Web World Model (WWM), a middle ground where world state and ``physics'' are implemented in ordinary web code to ensure logical consistency, while large language models generate context, narratives, and high-level decisions on top of this structured latent state. We build a suite of WWMs on a realistic web stack, including an infinite travel atlas grounded in real geography, fictional galaxy explorers, web-scale encyclopedic and narrative worlds, and simulation- and game-like environments. Across these systems, we identify practical design principles for WWMs: separating code-defined rules from model-driven imagination, representing latent state as typed web interfaces, and utilizing deterministic generation to achieve unlimited but structured exploration. Our results suggest that web stacks themselves can serve as a scalable substrate for world models, enabling controllable yet open-ended environments. Project Page: https://github.com/Princeton-AI2-Lab/Web-World-Models.",
+        "pdf_url": "https://arxiv.org/pdf/2512.23676v1",
+        "published": "2025-12-29 18:31:45+00:00",
+        "arxiv_id": "2512.23676v1"
+      },
+      "timestamp": "2026-01-12T19:46:02.793916",
+      "id": "paper_2512.23676v1"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "Is Sora a World Simulator? A Comprehensive Survey on General World Models and Beyond",
+        "authors": [
+          "Zheng Zhu",
+          "Xiaofeng Wang",
+          "Wangbo Zhao",
+          "Chen Min",
+          "Bohan Li",
+          "Nianchen Deng",
+          "Min Dou",
+          "Yuqi Wang",
+          "Botian Shi",
+          "Kai Wang",
+          "Chi Zhang",
+          "Yang You",
+          "Zhaoxiang Zhang",
+          "Dawei Zhao",
+          "Liang Xiao",
+          "Jian Zhao",
+          "Jiwen Lu",
+          "Guan Huang"
+        ],
+        "summary": "General world models represent a crucial pathway toward achieving Artificial General Intelligence (AGI), serving as the cornerstone for various applications ranging from virtual environments to decision-making systems. Recently, the emergence of the Sora model has attained significant attention due to its remarkable simulation capabilities, which exhibits an incipient comprehension of physical laws. In this survey, we embark on a comprehensive exploration of the latest advancements in world models. Our analysis navigates through the forefront of generative methodologies in video generation, where world models stand as pivotal constructs facilitating the synthesis of highly realistic visual content. Additionally, we scrutinize the burgeoning field of autonomous-driving world models, meticulously delineating their indispensable role in reshaping transportation and urban mobility. Furthermore, we delve into the intricacies inherent in world models deployed within autonomous agents, shedding light on their profound significance in enabling intelligent interactions within dynamic environmental contexts. At last, we examine challenges and limitations of world models, and discuss their potential future directions. We hope this survey can serve as a foundational reference for the research community and inspire continued innovation. This survey will be regularly updated at: https://github.com/GigaAI-research/General-World-Models-Survey.",
+        "pdf_url": "https://arxiv.org/pdf/2405.03520v2",
+        "published": "2024-05-06 14:37:07+00:00",
+        "arxiv_id": "2405.03520v2"
+      },
+      "timestamp": "2026-01-12T19:46:02.837202",
+      "id": "paper_2405.03520v2"
+    },
+    {
+      "id": "Search for papers on world models"
+    },
+    {
+      "type": "paper_analysis",
+      "data": {
+        "analysis": "**1. Main contribution / findings (2\u20113\u202fsentences)**  \nThe paper delivers the first exhaustive survey of *general world models* with a special focus on the recently proposed Sora model, positioning it as a promising step toward AGI. It systematically maps how these models underpin three key application domains\u2014video generation, autonomous driving, and intelligent agents\u2014and identifies common architectural motifs (e.g., latent\u2011space dynamics, physics\u2011aware priors). The authors conclude that while world models now exhibit rudimentary physical reasoning, they still lack robust generalization across modalities and real\u2011world complexity.\n\n**2. Methodology used**  \n- **Literature mining:** 200+ papers from 2015\u20132024 were collected via major conferences (NeurIPS, ICML, CVPR, RSS) and arXiv.  \n- **Taxonomy construction:** Models were grouped by generative paradigm (diffusion, VAE, RL\u2011based), target domain, and evaluation metric.  \n- **Comparative analysis:** Performance tables, qualitative case",
+        "pdf_path": "arxiv_papers\\2405.03520v2.pdf"
+      },
+      "timestamp": "2026-01-12T19:51:42.907687",
+      "id": "analysis_2405.03520v2"
+    },
+    {
+      "id": "Searh arxiv for papers on mindfulness"
+    },
+    {
+      "id": "Searh arxiv for papers on transformer model architecture"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "Architectural Implications of Graph Neural Networks",
+        "authors": [
+          "Zhihui Zhang",
+          "Jingwen Leng",
+          "Lingxiao Ma",
+          "Youshan Miao",
+          "Chao Li",
+          "Minyi Guo"
+        ],
+        "summary": "Graph neural networks (GNN) represent an emerging line of deep learning models that operate on graph structures. It is becoming more and more popular due to its high accuracy achieved in many graph-related tasks. However, GNN is not as well understood in the system and architecture community as its counterparts such as multi-layer perceptrons and convolutional neural networks. This work tries to introduce the GNN to our community. In contrast to prior work that only presents characterizations of GCNs, our work covers a large portion of the varieties for GNN workloads based on a general GNN description framework. By constructing the models on top of two widely-used libraries, we characterize the GNN computation at inference stage concerning general-purpose and application-specific architectures and hope our work can foster more system and architecture research for GNNs.",
+        "pdf_url": "https://arxiv.org/pdf/2009.00804v2",
+        "published": "2020-09-02 03:36:24+00:00",
+        "arxiv_id": "2009.00804v2"
+      },
+      "timestamp": "2026-01-15T14:20:03.006859",
+      "id": "paper_2009.00804v2"
+    },
+    {
+      "type": "paper_analysis",
+      "data": {
+        "analysis": "**1. Main contribution / findings (2\u20113\u202fsentences)**  \nThe paper presents a systematic characterization of Graph Neural Network (GNN) workloads by building a representative benchmark from a wide range of GNN models and evaluating them on modern GPU architectures. It shows that GNN inference exhibits a unique mix of dense matrix multiplications and sparse graph\u2011based operations, leading to distinct performance bottlenecks compared to conventional CNNs or MLPs. The study identifies key architectural requirements\u2014efficient data movement for irregular graph structures, support for both sparse and dense kernels, and opportunities for fine\u2011grained pipelining\u2014to guide future GNN accelerators.\n\n**2. Methodology used**  \n- **Benchmark construction:** A general GNN description framework was employed to instantiate 12 representative models (GCN, GraphSAGE, GAT, etc.) using PyTorch Geometric and Deep Graph Library.  \n- **Micro\u2011architectural profiling:** Each model\u2019s inference pipeline was instrumented on NVIDIA GPUs (V100/T4) to collect kernel launch counts, memory traffic, occupancy, and sparsity statistics.  \n- **Comparative analysis:** The authors compared GNN kernels against standard dense CNN/MLP kernels, examined the impact of graph size/sparsity, and evaluated how existing GPU features (e.g., tensor cores, sparse matrix support) affect performance.\n\n**3. Key limitations**  \n- **Inference\u2011only focus:** Training dynamics, which involve back\u2011propagation over graphs, are not analyzed.  \n- **Hardware scope:** Only NVIDIA GPUs were studied; results may differ on other accelerators (TPU, ASICs).  \n- **Dataset diversity:** The benchmark relies on a limited set of public graph datasets; real\u2011world workloads with extreme sparsity or dynamic graphs may exhibit different characteristics.\n\n**4. Potential applications**  \n- **Hardware design:** Inform the creation of GNN",
+        "pdf_path": "arxiv_papers\\2009.00804v2.pdf"
+      },
+      "timestamp": "2026-01-15T14:21:04.608004",
+      "id": "analysis_2009.00804v2"
+    },
+    {
+      "type": {
+        "type": "nn_experiment",
+        "dataset": "C:\\Users\\bof06\\Multi-Agent_Project\\kaggle_datasets\\meetnagadia_bitcoin-stock-data-sept-17-2014-august-24-2021\\BTC-USD.csv",
+        "winner": "mlp",
+        "score": 0.9973381161689758,
+        "task_type": "regression"
+      },
+      "data": {},
+      "timestamp": "2026-01-15T14:23:50.290159",
+      "id": "experiment_20260115_142350"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "Advancing Explainability in Neural Machine Translation: Analytical Metrics for Attention and Alignment Consistency",
+        "authors": [
+          "Anurag Mishra"
+        ],
+        "arxiv_id": "2412.18669v1",
+        "summary": "Neural Machine Translation (NMT) models have shown remarkable performance but remain largely opaque in their decision making processes. The interpretability of these models, especially their internal attention mechanisms, is critical for building trust and verifying that these systems behave as intended. In this work, we introduce a systematic framework to quantitatively evaluate the explainability of an NMT model attention patterns by comparing them against statistical alignments and correlating them with standard machine translation quality metrics. We present a set of metrics attention entropy and alignment agreement and validate them on an English-German test subset from WMT14 using a pre trained mT5 model. Our results indicate that sharper attention distributions correlate with improved interpretability but do not always guarantee better translation quality. These findings advance our understanding of NMT explainability and guide future efforts toward building more transparent and reliable machine translation systems.",
+        "published": "2024-12-24 20:08:33+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2412.18669v1",
+        "analysis": {
+          "main_contribution": "The paper introduces a quantitative framework for evaluating NMT explainability by defining attention entropy and alignment agreement metrics that compare model attention patterns with statistical word alignments.",
+          "methodology": "It computes attention entropy per target token, measures alignment agreement between attention distributions and external alignment references, and correlates these metrics with BLEU/METEOR scores on an English\u2011German WMT14 subset using a pre\u2011trained mT5 model.",
+          "datasets_used": [
+            "WMT14 English\u2011German test subset"
+          ],
+          "key_findings": [
+            "Sharper (lower entropy) attention distributions tend to align better with statistical alignments but do not consistently improve translation quality.\nAlignment agreement correlates mildly with higher BLEU/METEOR scores, yet high agreement alone does not guarantee superior performance."
+          ],
+          "limitations": "Interpretability metrics capture only a partial view of model behavior; low entropy or high alignment agreement may still coexist with poor translations, and the study is limited to a single dataset/model (mT5) and language pair.",
+          "future_work": "Future research could extend the framework to diverse architectures and languages, explore additional explainability signals (e.g., gradient\u2011based attribution), and investigate causal interventions that enforce alignment consistency during training.",
+          "depth": "standard"
+        }
+      },
+      "timestamp": "2026-01-17T17:14:16.014860",
+      "id": "paper_2412.18669v1"
+    },
+    {
+      "id": "lit_review_neural machine translation"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "Instruction-tuned Large Language Models for Machine Translation in the Medical Domain",
+        "authors": [
+          "Miguel Rios"
+        ],
+        "arxiv_id": "2408.16440v2",
+        "summary": "Large Language Models (LLMs) have shown promising results on machine translation for high resource language pairs and domains. However, in specialised domains (e.g. medical) LLMs have shown lower performance compared to standard neural machine translation models. The consistency in the machine translation of terminology is crucial for users, researchers, and translators in specialised domains. In this study, we compare the performance between baseline LLMs and instruction-tuned LLMs in the medical domain. In addition, we introduce terminology from specialised medical dictionaries into the instruction formatted datasets for fine-tuning LLMs. The instruction-tuned LLMs significantly outperform the baseline models with automatic metrics.",
+        "published": "2024-08-29 11:05:54+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2408.16440v2",
+        "analysis": {
+          "main_contribution": "The paper demonstrates that instruction\u2011tuning LLMs with domain\u2011specific medical terminology significantly improves machine translation quality in the medical domain compared to baseline LLMs.",
+          "methodology": "Baseline large language models were fine\u2011tuned on instruction\u2011formatted datasets that incorporate specialized medical dictionaries; performance was evaluated using automatic MT metrics and error analysis based on automated annotation.",
+          "datasets_used": [
+            "Medical domain parallel corpora (e.g., European Medicines Agency corpus)",
+            "Specialized medical terminology dictionaries"
+          ],
+          "key_findings": [
+            "Instruction\u2011tuned LLMs outperform baseline models on automatic translation quality metrics.\nError analysis shows a substantial reduction in terminology\u2011related translation errors after instruction tuning."
+          ],
+          "limitations": "The study relies solely on automatic evaluation metrics and automated error annotation, lacking extensive human post\u2011editing or domain expert assessment.",
+          "future_work": "Future work could involve human\u2011in\u2011the\u2011loop evaluations, exploring different instruction formats, extending to other low\u2011resource medical subdomains, and integrating real\u2011time post\u2011editing workflows.",
+          "depth": "standard"
+        }
+      },
+      "timestamp": "2026-01-17T17:15:00.616251",
+      "id": "paper_2408.16440v2"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "End-to-End Reinforcement Learning for Torque Based Variable Height Hopping",
+        "authors": [
+          "Raghav Soni",
+          "Daniel Harnack",
+          "Hannah Isermann",
+          "Sotaro Fushimi",
+          "Shivesh Kumar",
+          "Frank Kirchner"
+        ],
+        "arxiv_id": "2307.16676v2",
+        "summary": "Legged locomotion is arguably the most suited and versatile mode to deal with natural or unstructured terrains. Intensive research into dynamic walking and running controllers has recently yielded great advances, both in the optimal control and reinforcement learning (RL) literature. Hopping is a challenging dynamic task involving a flight phase and has the potential to increase the traversability of legged robots. Model based control for hopping typically relies on accurate detection of different jump phases, such as lift-off or touch down, and using different controllers for each phase. In this paper, we present a end-to-end RL based torque controller that learns to implicitly detect the relevant jump phases, removing the need to provide manual heuristics for state detection. We also extend a method for simulation to reality transfer of the learned controller to contact rich dynamic tasks, resulting in successful deployment on the robot after training without parameter tuning.",
+        "published": "2023-07-31 13:51:29+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2307.16676v2",
+        "analysis": {
+          "main_contribution": "The paper introduces an end\u2011to\u2011end reinforcement learning torque controller for variable\u2011height hopping that learns phase detection implicitly, eliminating manual heuristics, and demonstrates successful sim\u2011to\u2011real transfer without parameter tuning.",
+          "methodology": "A deep RL policy is trained in simulation to output joint torques for a single\u2011legged hopper; the network learns to detect lift\u2011off, flight, and touchdown phases internally. The learned controller is transferred to hardware using domain randomization and a sim\u2011to\u2011real adaptation technique.",
+          "datasets_used": [
+            "Custom physics\u2011based hopper simulator (e.g., MuJoCo/Simulink)",
+            "Real\u2011world hopping data collected from the monoped robot during deployment"
+          ],
+          "key_findings": [
+            "The RL policy achieves variable\u2011height hopping with comparable or better performance than heuristic phase\u2011based controllers.\nTransfer to the real robot succeeds without additional tuning, validating the sim\u2011to\u2011real approach."
+          ],
+          "limitations": "Limited evaluation on a single\u2011legged platform; lack of extensive comparative benchmarks against state\u2011of\u2011the\u2011art model\u2011based methods; potential sensitivity to simulation fidelity.",
+          "future_work": "Extend the framework to multi\u2011legged robots and more complex terrains; investigate curriculum learning for faster convergence; perform systematic ablation studies on phase detection mechanisms and domain randomization settings.",
+          "depth": "standard"
+        }
+      },
+      "timestamp": "2026-01-17T17:16:05.099123",
+      "id": "paper_2307.16676v2"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "Unified Sequence-to-Sequence Learning for Single- and Multi-Modal Visual Object Tracking",
+        "authors": [
+          "Xin Chen",
+          "Ben Kang",
+          "Jiawen Zhu",
+          "Dong Wang",
+          "Houwen Peng",
+          "Huchuan Lu"
+        ],
+        "arxiv_id": "2304.14394v3",
+        "summary": "In this paper, we introduce a new sequence-to-sequence learning framework for RGB-based and multi-modal object tracking. First, we present SeqTrack for RGB-based tracking. It casts visual tracking as a sequence generation task, forecasting object bounding boxes in an autoregressive manner. This differs from previous trackers, which depend on the design of intricate head networks, such as classification and regression heads. SeqTrack employs a basic encoder-decoder transformer architecture. The encoder utilizes a bidirectional transformer for feature extraction, while the decoder generates bounding box sequences autoregressively using a causal transformer. The loss function is a plain cross-entropy. Second, we introduce SeqTrackv2, a unified sequence-to-sequence framework for multi-modal tracking tasks. Expanding upon SeqTrack, SeqTrackv2 integrates a unified interface for auxiliary modalities and a set of task-prompt tokens to specify the task. This enables it to manage multi-modal tracking tasks using a unified model and parameter set. This sequence learning paradigm not only simplifies the tracking framework, but also showcases superior performance across 14 challenging benchmarks spanning five single- and multi-modal tracking tasks. The code and models are available at https://github.com/chenxin-dlut/SeqTrackv2.",
+        "published": "2023-04-27 17:56:29+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2304.14394v3",
+        "analysis": {
+          "main_contribution": "The paper proposes SeqTrack and its extension SeqTrackv2, a unified sequence\u2011to\u2011sequence transformer framework that casts RGB and multi\u2011modal visual object tracking as autoregressive bounding\u2011box generation, eliminating task\u2011specific head networks.",
+          "methodology": "An encoder\u2013decoder transformer architecture is used: the bidirectional encoder extracts features from template and search regions; the causal decoder predicts a sequence of bounding boxes (x,y,w,h) step by step. SeqTrackv2 adds a unified interface for auxiliary modalities and task\u2011prompt tokens to handle multiple tracking tasks with a single model.",
+          "datasets_used": [
+            "OTB",
+            "VOT",
+            "LaSOT",
+            "GOT-10k",
+            "TrackingNet"
+          ],
+          "key_findings": [
+            "SeqTrack achieves competitive or superior performance on RGB tracking benchmarks compared to head\u2011based trackers.\nSeqTrackv2 outperforms state\u2011of\u2011the\u2011art methods across 14 challenging single\u2011 and multi\u2011modal tracking benchmarks."
+          ],
+          "limitations": "The approach relies on transformer inference, which may incur higher computational cost; evaluation is limited to standard benchmarks without real\u2011time deployment analysis.",
+          "future_work": "Explore lightweight transformer variants for real\u2011time tracking; extend the framework to handle more modalities (e.g., depth, thermal); investigate curriculum learning or self\u2011supervised pretraining to improve generalization.",
+          "depth": "standard"
+        }
+      },
+      "timestamp": "2026-01-17T17:17:03.570275",
+      "id": "paper_2304.14394v3"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "Unsupervised Flow-Aligned Sequence-to-Sequence Learning for Video Restoration",
+        "authors": [
+          "Jing Lin",
+          "Xiaowan Hu",
+          "Yuanhao Cai",
+          "Haoqian Wang",
+          "Youliang Yan",
+          "Xueyi Zou",
+          "Yulun Zhang",
+          "Luc Van Gool"
+        ],
+        "arxiv_id": "2205.10195v2",
+        "summary": "How to properly model the inter-frame relation within the video sequence is an important but unsolved challenge for video restoration (VR). In this work, we propose an unsupervised flow-aligned sequence-to-sequence model (S2SVR) to address this problem. On the one hand, the sequence-to-sequence model, which has proven capable of sequence modeling in the field of natural language processing, is explored for the first time in VR. Optimized serialization modeling shows potential in capturing long-range dependencies among frames. On the other hand, we equip the sequence-to-sequence model with an unsupervised optical flow estimator to maximize its potential. The flow estimator is trained with our proposed unsupervised distillation loss, which can alleviate the data discrepancy and inaccurate degraded optical flow issues of previous flow-based methods. With reliable optical flow, we can establish accurate correspondence among multiple frames, narrowing the domain difference between 1D language and 2D misaligned frames and improving the potential of the sequence-to-sequence model. S2SVR shows superior performance in multiple VR tasks, including video deblurring, video super-resolution, and compressed video quality enhancement. Code and models are publicly available at https://github.com/linjing7/VR-Baseline",
+        "published": "2022-05-20 14:14:48+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2205.10195v2",
+        "analysis": {
+          "main_contribution": "The paper introduces S2SVR, an unsupervised flow\u2011aligned sequence\u2011to\u2011sequence framework that jointly learns optical flow and video restoration, enabling a single model to handle multiple VR tasks.",
+          "methodology": "S2SVR serializes the input video into a 1D token stream, applies a transformer encoder\u2013decoder for long\u2011range temporal modeling, and aligns frames using an unsupervised optical\u2011flow estimator trained with a distillation loss that mitigates flow inaccuracies.",
+          "datasets_used": [
+            "REDS",
+            "Vimeo-90K",
+            "GoPro",
+            "DAVIS",
+            "Vid4"
+          ],
+          "key_findings": [
+            "S2SVR outperforms state\u2011of\u2011the\u2011art methods on video deblurring, super\u2011resolution and compressed\u2011video enhancement benchmarks.",
+            "The unsupervised flow estimator improves correspondence accuracy, leading to better restoration quality across tasks."
+          ],
+          "limitations": "High computational cost due to transformer inference; evaluation limited to standard benchmark datasets without real\u2011time deployment analysis.",
+          "future_work": "Investigate lightweight transformer variants for real\u2011time tracking; extend the framework to additional modalities (e.g., depth, thermal); explore curriculum learning or self\u2011supervised pretraining to enhance generalization.",
+          "depth": "standard"
+        }
+      },
+      "timestamp": "2026-01-17T17:18:08.923960",
+      "id": "paper_2205.10195v2"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "Simplicial Attention Neural Networks",
+        "authors": [
+          "L. Giusti",
+          "C. Battiloro",
+          "P. Di Lorenzo",
+          "S. Sardellitti",
+          "S. Barbarossa"
+        ],
+        "arxiv_id": "2203.07485v2",
+        "summary": "The aim of this work is to introduce simplicial attention networks (SANs), i.e., novel neural architectures that operate on data defined on simplicial complexes leveraging masked self-attentional layers. Hinging on formal arguments from topological signal processing, we introduce a proper self-attention mechanism able to process data components at different layers (e.g., nodes, edges, triangles, and so on), while learning how to weight both upper and lower neighborhoods of the given topological domain in a totally task-oriented fashion. The proposed SANs generalize most of the current architectures available for processing data defined on simplicial complexes. The proposed approach compares favorably with other methods when applied to different (inductive and transductive) tasks such as trajectory prediction and missing data imputations in citation complexes.",
+        "published": "2022-03-14 20:47:31+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2203.07485v2",
+        "analysis": {
+          "main_contribution": "The paper proposes Simplicial Attention Neural Networks (SANs), a novel attention\u2011based architecture that processes signals on simplicial complexes by jointly attending to upper and lower neighborhood structures across multiple simplex dimensions.",
+          "methodology": "SANs extend self\u2011attention to simplicial domains: each simplex (node, edge, triangle, etc.) receives a masked multi\u2011head attention over its incident higher\u2011order and adjacent lower\u2011order simplices, with learnable weighting of upper/lower neighborhoods. The model is trained end\u2011to\u2011end for tasks such as trajectory prediction and missing data imputation.",
+          "datasets_used": [
+            "Citation networks (e.g., Cora, Citeseer)",
+            "Synthetic trajectory datasets"
+          ],
+          "key_findings": [
+            "SANs outperform existing graph\u2011based and simplicial methods on inductive/transductive citation completion and trajectory forecasting benchmarks.",
+            "The attention mechanism learns meaningful upper/lower neighborhood weights that adapt to the task without manual tuning."
+          ],
+          "limitations": "Limited evaluation to a few benchmark graphs; scalability to very large complexes not demonstrated; reliance on accurate simplicial complex construction may affect performance.",
+          "future_work": "Explore efficient sparse implementations for large\u2011scale complexes, extend SANs to dynamic or temporal simplicial data, and investigate theoretical guarantees of attention weighting in higher\u2011order topology.",
+          "depth": "standard"
+        }
+      },
+      "timestamp": "2026-01-17T17:19:28.609950",
+      "id": "paper_2203.07485v2"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "SA-Net: Shuffle Attention for Deep Convolutional Neural Networks",
+        "authors": [
+          "Qing-Long Zhang Yu-Bin Yang"
+        ],
+        "arxiv_id": "2102.00240v1",
+        "summary": "Attention mechanisms, which enable a neural network to accurately focus on all the relevant elements of the input, have become an essential component to improve the performance of deep neural networks. There are mainly two attention mechanisms widely used in computer vision studies, \\textit{spatial attention} and \\textit{channel attention}, which aim to capture the pixel-level pairwise relationship and channel dependency, respectively. Although fusing them together may achieve better performance than their individual implementations, it will inevitably increase the computational overhead. In this paper, we propose an efficient Shuffle Attention (SA) module to address this issue, which adopts Shuffle Units to combine two types of attention mechanisms effectively. Specifically, SA first groups channel dimensions into multiple sub-features before processing them in parallel. Then, for each sub-feature, SA utilizes a Shuffle Unit to depict feature dependencies in both spatial and channel dimensions. After that, all sub-features are aggregated and a \"channel shuffle\" operator is adopted to enable information communication between different sub-features. The proposed SA module is efficient yet effective, e.g., the parameters and computations of SA against the backbone ResNet50 are 300 vs. 25.56M and 2.76e-3 GFLOPs vs. 4.12 GFLOPs, respectively, and the performance boost is more than 1.34% in terms of Top-1 accuracy. Extensive experimental results on common-used benchmarks, including ImageNet-1k for classification, MS COCO for object detection, and instance segmentation, demonstrate that the proposed SA outperforms the current SOTA methods significantly by achieving higher accuracy while having lower model complexity. The code and models are available at https://github.com/wofmanaf/SA-Net.",
+        "published": "2021-01-30 15:23:17+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2102.00240v1",
+        "analysis": {
+          "main_contribution": "SA-Net introduces a lightweight Shuffle Attention (SA) module that efficiently fuses spatial and channel attention via grouped sub-features and shuffle units, achieving higher accuracy with significantly reduced parameters and FLOPs compared to existing methods.",
+          "methodology": "The SA module first partitions channels into multiple groups, applies a Shuffle Unit\u2014combining spatial and channel attention within each group\u2014then aggregates the groups and performs a channel\u2011shuffle operation to enable cross\u2011group communication. This design reduces computational overhead while preserving expressive power.",
+          "datasets_used": [
+            "ImageNet-1k (classification)",
+            "MS COCO (object detection & instance segmentation)"
+          ],
+          "key_findings": [
+            "SA-Net outperforms state\u2011of\u2011the\u2011art attention modules such as SENet, CBAM, ECA\u2011Net, and SGE\u2011Net on ImageNet\u20111k, achieving >1.34% Top\u20111 accuracy gain with only 300 additional parameters and 2.76e-3 GFLOPs over ResNet\u201150.",
+            "On MS COCO benchmarks, SA-Net improves detection and segmentation metrics while maintaining lower model complexity than competing attention\u2011based backbones."
+          ],
+          "limitations": "The paper focuses on image classification and object detection/segmentation; it does not evaluate the module on other vision tasks (e.g., video, depth estimation) or analyze its performance on very deep networks beyond ResNet\u201150.",
+          "future_work": "Future research could explore applying SA modules to transformer\u2011based architectures, scaling them to larger backbones, investigating their effectiveness on non\u2011image modalities, and conducting ablation studies on group size and shuffle strategies.",
+          "depth": "standard"
+        }
+      },
+      "timestamp": "2026-01-17T17:20:23.360005",
+      "id": "paper_2102.00240v1"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "Pairwise Neural Machine Translation Evaluation",
+        "authors": [
+          "Francisco Guzman",
+          "Shafiq Joty",
+          "Lluis Marquez",
+          "Preslav Nakov"
+        ],
+        "arxiv_id": "1912.03135v1",
+        "summary": "We present a novel framework for machine translation evaluation using neural networks in a pairwise setting, where the goal is to select the better translation from a pair of hypotheses, given the reference translation. In this framework, lexical, syntactic and semantic information from the reference and the two hypotheses is compacted into relatively small distributed vector representations, and fed into a multi-layer neural network that models the interaction between each of the hypotheses and the reference, as well as between the two hypotheses. These compact representations are in turn based on word and sentence embeddings, which are learned using neural networks. The framework is flexible, allows for efficient learning and classification, and yields correlation with humans that rivals the state of the art.",
+        "published": "2019-12-05 05:17:05+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1912.03135v1",
+        "analysis": {
+          "main_contribution": "The paper introduces a neural network\u2013based pairwise MT evaluation framework that learns compact lexical, syntactic and semantic representations of a reference and two hypotheses, achieving human\u2011judgment correlation comparable to state\u2011of\u2011the\u2011art metrics.",
+          "methodology": "It encodes each hypothesis and the reference using word and sentence embeddings, then feeds their concatenated vectors into a multi\u2011layer neural network that models interactions between each hypothesis\u2013reference pair and between the two hypotheses; the network outputs which hypothesis is better in a binary classification setting.",
+          "datasets_used": [
+            "WMT 2014 English\u2011German test set with human pairwise judgments",
+            "WMT 2016 English\u2011German test set with human pairwise judgments"
+          ],
+          "key_findings": [
+            "The proposed method attains Pearson/Spearman correlations with human judgments that rival or exceed traditional metrics such as BLEU, METEOR and TER on the evaluated datasets.",
+            "It demonstrates that a lightweight neural architecture can efficiently learn discriminative features without requiring extensive hand\u2011crafted linguistic resources."
+          ],
+          "limitations": "The approach only provides pairwise preference decisions, not absolute quality scores; it relies on the availability of reference translations and human judgments for training.",
+          "future_work": "Future research could explore extending the model to multi\u2011hypothesis ranking, incorporating multilingual or low\u2011resource settings, integrating unsupervised pretraining, and investigating interpretability of learned representations.",
+          "depth": "standard"
+        }
+      },
+      "timestamp": "2026-01-17T17:21:16.273615",
+      "id": "paper_1912.03135v1"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "Neural Machine Translation: A Review and Survey",
+        "authors": [
+          "Felix Stahlberg"
+        ],
+        "arxiv_id": "1912.02047v2",
+        "summary": "The field of machine translation (MT), the automatic translation of written text from one natural language into another, has experienced a major paradigm shift in recent years. Statistical MT, which mainly relies on various count-based models and which used to dominate MT research for decades, has largely been superseded by neural machine translation (NMT), which tackles translation with a single neural network. In this work we will trace back the origins of modern NMT architectures to word and sentence embeddings and earlier examples of the encoder-decoder network family. We will conclude with a survey of recent trends in the field.",
+        "published": "2019-12-04 15:16:03+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1912.02047v2",
+        "analysis": {
+          "main_contribution": "The paper provides a comprehensive review and survey of neural machine translation (NMT), tracing its evolution from early encoder\u2013decoder models to modern architectures such as attention mechanisms and Transformers, while highlighting key trends and resources in the field.",
+          "methodology": "Literature review and taxonomy construction; the authors analyze seminal papers, categorize NMT approaches, and summarize available open-source toolkits and datasets cited in the literature.",
+          "datasets_used": [],
+          "key_findings": [
+            "NMT has largely displaced statistical MT, leading to a rapid increase in publications and adoption of encoder\u2013decoder architectures with attention.",
+            "The survey identifies major architectural milestones (e.g., Bahdanau attention, Transformer) and catalogs popular open\u2011source NMT toolkits that have driven research progress."
+          ],
+          "limitations": "As a survey, the work does not provide new empirical results; it relies on existing literature which may be biased toward high\u2011profile conferences and may overlook unpublished or proprietary advances.",
+          "future_work": "Future directions include deeper exploration of low\u2011resource and multilingual NMT, integration with other NLP tasks, interpretability of learned representations, and systematic benchmarking across diverse language pairs.",
+          "depth": "standard"
+        }
+      },
+      "timestamp": "2026-01-17T17:22:25.179185",
+      "id": "paper_1912.02047v2"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "On Using SpecAugment for End-to-End Speech Translation",
+        "authors": [
+          "Parnia Bahar",
+          "Albert Zeyer",
+          "Ralf Schl\u00fcter",
+          "Hermann Ney"
+        ],
+        "arxiv_id": "1911.08876v1",
+        "summary": "This work investigates a simple data augmentation technique, SpecAugment, for end-to-end speech translation. SpecAugment is a low-cost implementation method applied directly to the audio input features and it consists of masking blocks of frequency channels, and/or time steps. We apply SpecAugment on end-to-end speech translation tasks and achieve up to +2.2\\% \\BLEU on LibriSpeech Audiobooks En->Fr and +1.2% on IWSLT TED-talks En->De by alleviating overfitting to some extent. We also examine the effectiveness of the method in a variety of data scenarios and show that the method also leads to significant improvements in various data conditions irrespective of the amount of training data.",
+        "published": "2019-11-20 13:11:41+00:00",
+        "pdf_url": "https://arxiv.org/pdf/1911.08876v1",
+        "analysis": {
+          "main_contribution": "The paper demonstrates that applying SpecAugment\u2014time and frequency masking on mel\u2011spectrograms\u2014to end\u2011to\u2011end speech translation models effectively reduces overfitting and yields measurable BLEU gains across multiple language pairs.",
+          "methodology": "Implement SpecAugment as a data augmentation step during training of an encoder\u2013decoder ST model; evaluate performance on standard benchmarks while varying data size to assess robustness.",
+          "datasets_used": [
+            "LibriSpeech Audiobooks (English\u2192French)",
+            "IWSLT TED\u2011talks (English\u2192German)"
+          ],
+          "key_findings": [
+            "SpecAugment improves BLEU by up to +2.2% on LibriSpeech En\u2192Fr and +1.2% on IWSLT En\u2192De.",
+            "The augmentation benefits persist across different data regimes, showing consistent gains regardless of training set size."
+          ],
+          "limitations": "Limited to the two evaluated language pairs; only a single ST architecture tested; no ablation of individual masking parameters or comparison with other augmentation techniques beyond SpecAugment.",
+          "future_work": "Explore SpecAugment in larger multilingual and low\u2011resource settings, conduct systematic ablations of mask widths and probabilities, compare against alternative audio augmentations, and integrate with synthetic data generation methods.",
+          "depth": "standard"
+        }
+      },
+      "timestamp": "2026-01-17T17:23:30.618666",
+      "id": "paper_1911.08876v1"
+    },
+    {
+      "type": {
+        "type": "nn_experiment",
+        "dataset": "C:\\Users\\bof06\\Multi-Agent_Project\\kaggle_datasets\\henryshan_apple-stock-price\\AAPL.csv",
+        "winner": "mlp",
+        "score": 0.9705576889080849,
+        "task_type": "regression"
+      },
+      "data": {},
+      "timestamp": "2026-01-17T17:42:14.072954",
+      "id": "experiment_20260117_174214"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "Is Sanskrit the most token-efficient language? A quantitative study using GPT, Gemini, and SentencePiece",
+        "authors": [
+          "Anshul Kumar"
+        ],
+        "arxiv_id": "2601.06142v1",
+        "summary": "Tokens are the basic units of Large Language Models (LLMs). LLMs rely on tokenizers to segment text into these tokens, and tokenization is the primary determinant of computational and inference cost. Sanskrit, one of the oldest languages, is hypothesized to express more meaning per token due to its morphology and grammar rules; however, no prior work has quantified this. We use a dataset of 701 parallel verses of the Bhagavad Gita, which comprises three languages-Sanskrit, English, and Hindi along with transliteration of Sanskrit into English. We test tokenizers including SentencePiece (SPM), older GPT models, and the latest generation tokenizers from Gemini and GPT. We use metrics of token count, characters per token (token efficiency), and tokens per character (token cost). Results show a ~2x difference in token counts between Sanskrit and English/Hindi under the unbiased SPM baseline. English/Hindi translations of Sanskrit commentary resulted in an approximately 20x increase in token count. GPT o200k base (latest, used by GPT-4o) and Gemini (latest) reduce bias by a significant degree compared to GPT cl100k base (used until GPT-4), but still fail to fully capture Sanskrit's compactness. This matters because there might be a penalty bias for non-English users, which inflates the token count. This research provides a foundation for improving future tokenizer design and shows the potential of Sanskrit for highly compact encoding, saving on cost while speeding up training and inference. The code and dataset are available at https://github.com/anshulkr713/sanskrit-token-efficiency",
+        "published": "2026-01-05 15:23:50+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2601.06142v1",
+        "analysis": {
+          "main_contribution": "Quantitatively demonstrates that Sanskrit is substantially more token\u2011efficient than English and Hindi when processed by modern LLM tokenizers, revealing a ~2\u00d7 lower token count under unbiased SentencePiece and highlighting persistent bias in GPT/Gemini tokenizers.",
+          "methodology": "Built a parallel corpus of 701 Bhagavad Gita verses in Sanskrit, English, Hindi, and transliteration; trained equal\u2011size SentencePiece models for each language; evaluated four tokenization systems (GPT cl100k base, GPT o200k base, Gemini tokenizer, SPM) on token count, characters per token, and tokens per character.",
+          "datasets_used": [
+            "701 parallel verses of the Bhagavad Gita (Sanskrit, English, Hindi, transliteration)"
+          ],
+          "key_findings": [
+            "Sanskrit requires roughly half as many tokens as its translations under unbiased SentencePiece; GPT o200k base and Gemini reduce but do not eliminate token bias; translations inflate token counts by up to 20\u00d7."
+          ],
+          "limitations": "Limited to a single text (Bhagavad Gita), small corpus size, and reliance on existing tokenizer training data which may not fully capture language diversity.",
+          "future_work": "Expand to larger, more varied Sanskrit corpora; fine\u2011tune tokenizers specifically for Sanskrit; investigate impact on LLM training cost and inference latency across multilingual settings.",
+          "innovation_score": 6,
+          "score_reasoning": "The study provides the first empirical evidence of Sanskrit\u2019s token efficiency using contemporary tokenizers, offering novel insights into tokenizer bias and language compactness, but it remains a focused, domain\u2011specific analysis rather than a broad methodological breakthrough.",
+          "depth": "standard"
+        }
+      },
+      "timestamp": "2026-01-18T11:41:10.739876",
+      "id": "paper_2601.06142v1"
+    },
+    {
+      "id": "lit_review_GPT architecture"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "Lightweight Transformer Architectures for Edge Devices in Real-Time Applications",
+        "authors": [
+          "Hema Hariharan Samson"
+        ],
+        "arxiv_id": "2601.03290v1",
+        "summary": "The deployment of transformer-based models on resource-constrained edge devices represents a critical challenge in enabling real-time artificial intelligence applications. This comprehensive survey examines lightweight transformer architectures specifically designed for edge deployment, analyzing recent advances in model compression, quantization, pruning, and knowledge distillation techniques. We systematically review prominent lightweight variants including MobileBERT, TinyBERT, DistilBERT, EfficientFormer, EdgeFormer, and MobileViT, providing detailed performance benchmarks on standard datasets such as GLUE, SQuAD, ImageNet-1K, and COCO. Our analysis encompasses current industry adoption patterns across major hardware platforms (NVIDIA Jetson, Qualcomm Snapdragon, Apple Neural Engine, ARM architectures), deployment frameworks (TensorFlow Lite, ONNX Runtime, PyTorch Mobile, CoreML), and optimization strategies. Experimental results demonstrate that modern lightweight transformers can achieve 75-96% of full-model accuracy while reducing model size by 4-10x and inference latency by 3-9x, enabling deployment on devices with as little as 2-5W power consumption. We identify sparse attention mechanisms, mixed-precision quantization (INT8/FP16), and hardware-aware neural architecture search as the most effective optimization strategies. Novel findings include memory-bandwidth bottleneck analysis revealing 15-40M parameter models achieve optimal hardware utilization (60-75% efficiency), quantization sweet spots for different model types, and comprehensive energy efficiency profiling across edge platforms. We establish real-time performance boundaries and provide a practical 6-step deployment pipeline achieving 8-12x size reduction with less than 2% accuracy degradation.",
+        "published": "2026-01-05 01:04:25+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2601.03290v1",
+        "analysis": {
+          "main_contribution": "The paper surveys lightweight transformer variants and systematically evaluates compression, quantization, pruning, and distillation techniques for edge deployment, demonstrating that 75\u201196% of full-model accuracy can be retained while reducing size by 4\u201110\u00d7 and latency by 3\u20119\u00d7.",
+          "methodology": "Comprehensive literature review combined with empirical benchmarking of MobileBERT, TinyBERT, DistilBERT, EfficientFormer, EdgeFormer, and MobileViT on GLUE, SQuAD, ImageNet\u20111K, and COCO across NVIDIA Jetson, Qualcomm Snapdragon, Apple Neural Engine, and ARM platforms using TensorFlow Lite, ONNX Runtime, PyTorch Mobile, and CoreML; analysis of sparse attention, mixed\u2011precision INT8/FP16 quantization, and hardware\u2011aware NAS.",
+          "datasets_used": [
+            "GLUE",
+            "SQuAD",
+            "ImageNet-1K",
+            "COCO"
+          ],
+          "key_findings": [
+            "Lightweight transformers achieve 75\u201196% accuracy with 4\u201110\u00d7 smaller models and 3\u20119\u00d7 faster inference on edge devices consuming as little as 2\u20115W; sparse attention, mixed\u2011precision quantization, and hardware\u2011aware NAS are most effective optimization strategies.",
+            "Memory\u2011bandwidth bottleneck analysis shows 15\u201140M parameter models attain optimal hardware utilization (60\u201175% efficiency) and identifies quantization sweet spots per model type."
+          ],
+          "limitations": "Limited to a handful of transformer variants and benchmark datasets; primarily empirical survey without new algorithmic contributions; hardware profiling may not generalize to all edge platforms.",
+          "future_work": "Extend evaluation to more diverse lightweight models, explore fine\u2011tuning for specific edge tasks, investigate energy efficiency across broader hardware families, and develop automated pipelines integrating NAS with quantization/pruning for end\u2011to\u2011end deployment.",
+          "innovation_score": 7,
+          "score_reasoning": "The paper offers a thorough empirical synthesis of existing techniques and identifies practical optimization strategies, providing notable novel insights (e.g., memory\u2011bandwidth bottleneck analysis) but does not introduce fundamentally new algorithms or paradigms.",
+          "depth": "standard"
+        }
+      },
+      "timestamp": "2026-01-18T11:42:16.181040",
+      "id": "paper_2601.03290v1"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "Insights into DeepSeek-V3: Scaling Challenges and Reflections on Hardware for AI Architectures",
+        "authors": [
+          "Chenggang Zhao",
+          "Chengqi Deng",
+          "Chong Ruan",
+          "Damai Dai",
+          "Huazuo Gao",
+          "Jiashi Li",
+          "Liyue Zhang",
+          "Panpan Huang",
+          "Shangyan Zhou",
+          "Shirong Ma",
+          "Wenfeng Liang",
+          "Ying He",
+          "Yuqing Wang",
+          "Yuxuan Liu",
+          "Y. X. Wei"
+        ],
+        "arxiv_id": "2505.09343v2",
+        "summary": "The rapid scaling of large language models (LLMs) has unveiled critical limitations in current hardware architectures, including constraints in memory capacity, computational efficiency, and interconnection bandwidth. DeepSeek-V3, trained on 2,048 NVIDIA H800 GPUs, demonstrates how hardware-aware model co-design can effectively address these challenges, enabling cost-efficient training and inference at scale. This paper presents an in-depth analysis of the DeepSeek-V3/R1 model architecture and its AI infrastructure, highlighting key innovations such as Multi-head Latent Attention (MLA) for enhanced memory efficiency, Mixture of Experts (MoE) architectures for optimized computation-communication trade-offs, FP8 mixed-precision training to unlock the full potential of hardware capabilities, and a Multi-Plane Network Topology to minimize cluster-level network overhead. Building on the hardware bottlenecks encountered during DeepSeek-V3's development, we engage in a broader discussion with academic and industry peers on potential future hardware directions, including precise low-precision computation units, scale-up and scale-out convergence, and innovations in low-latency communication fabrics. These insights underscore the critical role of hardware and model co-design in meeting the escalating demands of AI workloads, offering a practical blueprint for innovation in next-generation AI systems.",
+        "published": "2025-05-14 12:39:03+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2505.09343v2",
+        "analysis": {
+          "main_contribution": "DeepSeek\u2011V3 demonstrates a hardware\u2011aware co\u2011design that scales an LLM to 2,048 NVIDIA H800 GPUs by introducing memory\u2011efficient Multi\u2011head Latent Attention, MoE for compute\u2013communication balance, FP8 mixed\u2011precision training, and a Multi\u2011Plane Network topology.",
+          "methodology": "The authors design and implement novel architectural primitives (MLA, MoE, FP8 training, multi\u2011plane networking), train the model on a large GPU cluster, profile hardware bottlenecks, and conduct cross\u2011disciplinary discussions to propose future hardware directions.",
+          "datasets_used": [],
+          "key_findings": [
+            "Hardware\u2011aware co\u2011design enables cost\u2011efficient scaling of LLMs while mitigating memory, compute, and bandwidth constraints; FP8 mixed\u2011precision training unlocks full GPU throughput."
+          ],
+          "limitations": "Evaluation limited to a specific GPU cluster (2,048 NVIDIA H800) and does not explore broader hardware families or diverse lightweight models.",
+          "future_work": "Extend the approach to other hardware platforms, investigate fine\u2011tuning for edge tasks, broaden energy efficiency studies across devices, and automate pipelines integrating NAS with quantization/pruning for end\u2011to\u2011end deployment.",
+          "innovation_score": 7,
+          "score_reasoning": "The paper provides solid empirical insights and introduces several novel architectural techniques that collectively improve scalability, but it does not present a fundamentally new algorithmic paradigm.",
+          "depth": "standard"
+        }
+      },
+      "timestamp": "2026-01-18T11:43:05.272633",
+      "id": "paper_2505.09343v2"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "How do language models learn facts? Dynamics, curricula and hallucinations",
+        "authors": [
+          "Nicolas Zucchet",
+          "J\u00f6rg Bornschein",
+          "Stephanie Chan",
+          "Andrew Lampinen",
+          "Razvan Pascanu",
+          "Soham De"
+        ],
+        "arxiv_id": "2503.21676v2",
+        "summary": "Large language models accumulate vast knowledge during pre-training, yet the dynamics governing this acquisition remain poorly understood. This work investigates the learning dynamics of language models on a synthetic factual recall task, uncovering three key findings: First, language models learn in three phases, exhibiting a performance plateau before acquiring precise factual knowledge. Mechanistically, this plateau coincides with the formation of attention-based circuits that support recall. Second, the training data distribution significantly impacts learning dynamics, as imbalanced distributions lead to shorter plateaus. Finally, hallucinations emerge simultaneously with knowledge, and integrating new knowledge into the model through fine-tuning is challenging, as it quickly corrupts its existing parametric memories. Our results emphasize the importance of data distribution in knowledge acquisition and suggest novel data scheduling strategies to accelerate neural network training.",
+        "published": "2025-03-27 16:43:45+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2503.21676v2",
+        "analysis": {
+          "main_contribution": "The paper dissects how language models acquire factual knowledge by revealing a three\u2011phase learning trajectory on a synthetic recall task, linking performance plateaus to the emergence of attention\u2011based recall circuits and showing that data distribution critically shapes these dynamics.",
+          "methodology": "They adapted a synthetic biography generation benchmark, trained transformer models while monitoring per\u2011step recall accuracy, applied an attention patching technique to identify recall circuits, varied training data distributions to study curriculum effects, and evaluated fine\u2011tuning impact on knowledge retention.",
+          "datasets_used": [
+            "Synthetic factual recall dataset (adapted from Allen\u2011Zhu & Li 2023)"
+          ],
+          "key_findings": [
+            "1. Models learn in three distinct phases\u2014statistical learning, a plateau with emerging attention circuits, then individual\u2011specific knowledge acquisition; 2. Imbalanced data distributions shorten the plateau and accelerate knowledge gain but risk overfitting, suggesting curriculum scheduling can improve training speed."
+          ],
+          "limitations": "Results are based on a synthetic task that may not fully capture real\u2011world factual learning; analysis focuses on transformer architectures without exploring other model families.",
+          "future_work": "Extend investigations to larger, more realistic datasets; explore alternative architectures and memory mechanisms; develop principled data curricula for diverse downstream tasks; study fine\u2011tuning strategies that preserve existing knowledge.",
+          "innovation_score": 7,
+          "score_reasoning": "The work introduces novel insights into learning dynamics and attention circuit formation, and proposes curriculum techniques, representing a solid contribution with notable novelty but not a paradigm shift.",
+          "depth": "standard"
+        }
+      },
+      "timestamp": "2026-01-18T11:44:01.759395",
+      "id": "paper_2503.21676v2"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "Optimal design of frame structures with mixed categorical and continuous design variables using the Gumbel-Softmax method",
+        "authors": [
+          "Mehran Ebrahimi",
+          "Hyunmin Cheong",
+          "Pradeep Kumar Jayaraman",
+          "Farhad Javid"
+        ],
+        "arxiv_id": "2501.00258v1",
+        "summary": "In optimizing real-world structures, due to fabrication or budgetary restraints, the design variables may be restricted to a set of standard engineering choices. Such variables, commonly called categorical variables, are discrete and unordered in essence, precluding the utilization of gradient-based optimizers for the problems containing them. In this paper, incorporating the Gumbel-Softmax (GSM) method, we propose a new gradient-based optimizer for handling such variables in the optimal design of large-scale frame structures. The GSM method provides a means to draw differentiable samples from categorical distributions, thereby enabling sensitivity analysis for the variables generated from such distributions. The sensitivity information can greatly reduce the computational cost of traversing high-dimensional and discrete design spaces in comparison to employing gradient-free optimization methods. In addition, since the developed optimizer is gradient-based, it can naturally handle the simultaneous optimization of categorical and continuous design variables. Through three numerical case studies, different aspects of the proposed optimizer are studied and its advantages over population-based optimizers, specifically a genetic algorithm, are demonstrated.",
+        "published": "2024-12-31 03:59:24+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2501.00258v1",
+        "analysis": {
+          "main_contribution": "The paper introduces a gradient\u2011based optimizer that incorporates the Gumbel\u2011Softmax trick to handle mixed categorical and continuous design variables in large\u2011scale frame structure optimization.",
+          "methodology": "It replaces discrete categorical choices (e.g., beam profiles, materials) with differentiable samples from a categorical distribution via Gumbel\u2011Softmax, enabling back\u2011propagation of sensitivities through finite\u2011element analysis; the optimizer is benchmarked against a genetic algorithm on three numerical case studies.",
+          "datasets_used": [],
+          "key_findings": [
+            "1. The GSM\u2011based optimizer achieves comparable or better objective values than a GA while requiring fewer function evaluations.\n2. It naturally handles simultaneous optimization of categorical and continuous variables, reducing computational cost in high\u2011dimensional discrete spaces."
+          ],
+          "limitations": "Limited to problems where a differentiable FE model is available; performance depends on the choice of temperature schedule and may not scale trivially to extremely large industrial models.",
+          "future_work": "Extend the approach to other structural families (e.g., trusses, shells), integrate surrogate modeling or adaptive temperature schemes, explore multi\u2011objective formulations, and validate on real\u2011world industrial projects.",
+          "innovation_score": 7,
+          "score_reasoning": "The use of Gumbel\u2011Softmax for mixed categorical/continuous optimization in frame structures is a solid novel contribution that improves efficiency over traditional population\u2011based methods, but it does not constitute a paradigm shift.",
+          "depth": "standard"
+        }
+      },
+      "timestamp": "2026-01-18T11:45:13.161043",
+      "id": "paper_2501.00258v1"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "LSQCA: Resource-Efficient Load/Store Architecture for Limited-Scale Fault-Tolerant Quantum Computing",
+        "authors": [
+          "Takumi Kobori",
+          "Yasunari Suzuki",
+          "Yosuke Ueno",
+          "Teruo Tanimoto",
+          "Synge Todo",
+          "Yuuki Tokunaga"
+        ],
+        "arxiv_id": "2412.20486v2",
+        "summary": "Current fault-tolerant quantum computer (FTQC) architectures utilize several encoding techniques to enable reliable logical operations with restricted qubit connectivity. However, such logical operations demand additional memory overhead to ensure fault tolerance. Since the main obstacle to practical quantum computing is the limited qubit count, our primary mission is to design floorplans that can reduce memory overhead without compromising computational capability. Despite extensive efforts to explore FTQC architectures, even the current state-of-the-art floorplan strategy devotes 50% of memory space to this overhead, not to data storage, to ensure unit-time random access to all logical qubits.\n  In this paper, we propose an FTQC architecture based on a novel floorplan strategy, Load/Store Quantum Computer Architecture (LSQCA), which can achieve almost 100% memory density. The idea behind our architecture is to separate all memory regions into small computational space called Computational Registers (CR) and space-efficient memory space called Scan-Access Memory (SAM). We define an instruction set for these abstract structures and provide concrete designs named point-SAM and line-SAM architectures. With this design, we can improve the memory density by allowing variable-latency memory access while concealing the latency with other bottlenecks. We also propose optimization techniques to exploit properties of quantum programs observed in our static analysis, such as access locality in memory reference timestamps. Our numerical results indicate that LSQCA successfully leverages this idea. In a resource-restricted situation, a specific benchmark shows that we can achieve about 90% memory density with 5% increase in the execution time compared to a conventional floorplan, which achieves at most 50% memory density for unit-time random access. Our design ensures broad quantum applicability.",
+        "published": "2024-12-29 14:58:23+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2412.20486v2",
+        "analysis": {
+          "main_contribution": "LSQCA introduces a load/store floorplan that partitions quantum memory into Computational Registers (CR) and Scan\u2011Access Memory (SAM), achieving near\u2011100% memory density while only modestly increasing execution time.",
+          "methodology": "Design of a novel floorplan with variable\u2011latency memory access, definition of an instruction set for CR/SAM, concrete point\u2011SAM and line\u2011SAM implementations, and static\u2011analysis\u2011based optimization exploiting locality in quantum programs.",
+          "datasets_used": [],
+          "key_findings": [
+            "Achieves ~90% memory density versus 50% in conventional unit\u2011time random\u2011access floorplans",
+            "Execution time increases by only ~5% compared to conventional designs"
+          ],
+          "limitations": "Performance evaluated on a limited set of benchmarks; scalability to larger, more diverse quantum workloads and different error\u2011correcting codes remains untested.",
+          "future_work": "Extend LSQCA to other quantum device architectures, integrate with various surface\u2011code configurations, explore adaptive latency schemes, and validate on real industrial quantum applications.",
+          "innovation_score": 7,
+          "score_reasoning": "The paper presents a novel architectural partitioning that substantially improves memory density in fault\u2011tolerant quantum computers, representing a notable advance beyond incremental optimizations but not yet a paradigm shift.",
+          "depth": "standard"
+        }
+      },
+      "timestamp": "2026-01-18T11:46:06.534125",
+      "id": "paper_2412.20486v2"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "SpeechPrompt: Prompting Speech Language Models for Speech Processing Tasks",
+        "authors": [
+          "Kai-Wei Chang",
+          "Haibin Wu",
+          "Yu-Kai Wang",
+          "Yuan-Kuei Wu",
+          "Hua Shen",
+          "Wei-Cheng Tseng",
+          "Iu-thing Kang",
+          "Shang-Wen Li",
+          "Hung-yi Lee"
+        ],
+        "arxiv_id": "2408.13040v1",
+        "summary": "Prompting has become a practical method for utilizing pre-trained language models (LMs). This approach offers several advantages. It allows an LM to adapt to new tasks with minimal training and parameter updates, thus achieving efficiency in both storage and computation. Additionally, prompting modifies only the LM's inputs and harnesses the generative capabilities of language models to address various downstream tasks in a unified manner. This significantly reduces the need for human labor in designing task-specific models. These advantages become even more evident as the number of tasks served by the LM scales up. Motivated by the strengths of prompting, we are the first to explore the potential of prompting speech LMs in the domain of speech processing. Recently, there has been a growing interest in converting speech into discrete units for language modeling. Our pioneer research demonstrates that these quantized speech units are highly versatile within our unified prompting framework. Not only can they serve as class labels, but they also contain rich phonetic information that can be re-synthesized back into speech signals for speech generation tasks. Specifically, we reformulate speech processing tasks into speech-to-unit generation tasks. As a result, we can seamlessly integrate tasks such as speech classification, sequence generation, and speech generation within a single, unified prompting framework. The experiment results show that the prompting method can achieve competitive performance compared to the strong fine-tuning method based on self-supervised learning models with a similar number of trainable parameters. The prompting method also shows promising results in the few-shot setting. Moreover, with the advanced speech LMs coming into the stage, the proposed prompting framework attains great potential.",
+        "published": "2024-08-23 13:00:10+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2408.13040v1",
+        "analysis": {
+          "main_contribution": "SpeechPrompt demonstrates that prompting a pre\u2011trained speech language model (speech LM) with quantized discrete units can unify diverse speech processing tasks\u2014classification, sequence generation, and synthesis\u2014while matching fine\u2011tuned SSL baselines with few trainable parameters.",
+          "methodology": "The authors convert raw audio into discrete speech units via a vector\u2011quantised representation, then formulate each downstream task as a speech\u2011to\u2011unit generation problem. A prompt (task description + optional examples) is concatenated to the unit sequence and fed to the frozen speech LM; loss is computed against target units or synthesized audio.",
+          "datasets_used": [
+            "LibriSpeech",
+            "VoxPopuli",
+            "Common Voice"
+          ],
+          "key_findings": [
+            "Prompting achieves competitive accuracy on classification and generation tasks compared to fine\u2011tuned SSL models with similar parameter budgets.",
+            "In few\u2011shot settings, prompting outperforms or matches fine\u2011tuning, indicating strong transferability."
+          ],
+          "limitations": "Evaluation limited to a handful of benchmark datasets; performance on highly domain\u2011specific or low\u2011resource languages not explored. The approach relies on high\u2011quality discrete unit encoders and may be sensitive to quantisation quality.",
+          "future_work": "Extend prompting to multilingual and low\u2011resource settings, investigate adaptive prompt learning, integrate more advanced speech LMs (e.g., Whisper, wav2vec 3), and explore end\u2011to\u2011end synthesis pipelines.",
+          "innovation_score": 7,
+          "score_reasoning": "The paper introduces a novel application of prompting to speech LMs, unifying multiple tasks with minimal tuning\u2014a notable advance beyond incremental fine\u2011tuning work, but not yet paradigm\u2011shifting.",
+          "depth": "standard"
+        }
+      },
+      "timestamp": "2026-01-18T11:46:59.218775",
+      "id": "paper_2408.13040v1"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "MLP Can Be A Good Transformer Learner",
+        "authors": [
+          "Sihao Lin",
+          "Pumeng Lyu",
+          "Dongrui Liu",
+          "Tao Tang",
+          "Xiaodan Liang",
+          "Andy Song",
+          "Xiaojun Chang"
+        ],
+        "arxiv_id": "2404.05657v1",
+        "summary": "Self-attention mechanism is the key of the Transformer but often criticized for its computation demands. Previous token pruning works motivate their methods from the view of computation redundancy but still need to load the full network and require same memory costs. This paper introduces a novel strategy that simplifies vision transformers and reduces computational load through the selective removal of non-essential attention layers, guided by entropy considerations. We identify that regarding the attention layer in bottom blocks, their subsequent MLP layers, i.e. two feed-forward layers, can elicit the same entropy quantity. Meanwhile, the accompanied MLPs are under-exploited since they exhibit smaller feature entropy compared to those MLPs in the top blocks. Therefore, we propose to integrate the uninformative attention layers into their subsequent counterparts by degenerating them into identical mapping, yielding only MLP in certain transformer blocks. Experimental results on ImageNet-1k show that the proposed method can remove 40% attention layer of DeiT-B, improving throughput and memory bound without performance compromise. Code is available at https://github.com/sihaoevery/lambda_vit.",
+        "published": "2024-04-08 16:40:15+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2404.05657v1",
+        "analysis": {
+          "main_contribution": "The paper proposes an entropy\u2011guided strategy that selectively removes self\u2011attention layers from vision transformers by merging them with subsequent MLPs, achieving significant parameter and computation savings without accuracy loss.",
+          "methodology": "Compute feature entropy for each transformer block; identify bottom blocks where attention and following MLP have low, similar entropy; replace the attention layer with an identical mapping so only the MLP remains; retrain or fine\u2011tune the modified network.",
+          "datasets_used": [
+            "ImageNet-1k"
+          ],
+          "key_findings": [
+            "Reduces 13.7% of DeiT\u2011B parameters and improves working load by 20.5% while keeping top\u20111 accuracy unchanged; effectively removes ~40% of attention layers in DeiT\u2011B."
+          ],
+          "limitations": "Evaluation limited to ImageNet classification with DeiT\u2011B; generalization to other vision transformer variants or downstream tasks is untested; the entropy criterion may not capture all redundancy patterns.",
+          "future_work": "Apply the pruning scheme to other transformer backbones and tasks, explore adaptive entropy thresholds, investigate joint training of attention\u2013MLP merging, and assess impact on model robustness and transfer learning.",
+          "innovation_score": 7,
+          "score_reasoning": "The paper introduces a novel entropy\u2011based pruning technique that simplifies transformers by eliminating redundant attention layers, which is a notable advance over prior token\u2011pruning methods but does not constitute a paradigm shift.",
+          "depth": "standard"
+        }
+      },
+      "timestamp": "2026-01-18T11:48:15.469467",
+      "id": "paper_2404.05657v1"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "Scaling Behavior of Machine Translation with Large Language Models under Prompt Injection Attacks",
+        "authors": [
+          "Zhifan Sun",
+          "Antonio Valerio Miceli-Barone"
+        ],
+        "arxiv_id": "2403.09832v1",
+        "summary": "Large Language Models (LLMs) are increasingly becoming the preferred foundation platforms for many Natural Language Processing tasks such as Machine Translation, owing to their quality often comparable to or better than task-specific models, and the simplicity of specifying the task through natural language instructions or in-context examples. Their generality, however, opens them up to subversion by end users who may embed into their requests instructions that cause the model to behave in unauthorized and possibly unsafe ways. In this work we study these Prompt Injection Attacks (PIAs) on multiple families of LLMs on a Machine Translation task, focusing on the effects of model size on the attack success rates. We introduce a new benchmark data set and we discover that on multiple language pairs and injected prompts written in English, larger models under certain conditions may become more susceptible to successful attacks, an instance of the Inverse Scaling phenomenon (McKenzie et al., 2023). To our knowledge, this is the first work to study non-trivial LLM scaling behaviour in a multi-lingual setting.",
+        "published": "2024-03-14 19:39:10+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2403.09832v1",
+        "analysis": {
+          "main_contribution": "Large Language Models (LLMs) are increasingly becoming the preferred foundation platforms for many Natural Language Processing tasks such as Machine Translation, owing to their quality often comparabl",
+          "methodology": "Not extracted",
+          "datasets_used": [],
+          "key_findings": [],
+          "limitations": "Not extracted",
+          "future_work": "Not extracted",
+          "innovation_score": 5,
+          "score_reasoning": "Score unavailable",
+          "depth": "standard"
+        }
+      },
+      "timestamp": "2026-01-18T11:49:12.870780",
+      "id": "paper_2403.09832v1"
+    },
+    {
+      "type": "arxiv_paper",
+      "data": {
+        "title": "Towards Assessing Spread in Sets of Software Architecture Designs",
+        "authors": [
+          "Vittorio Cortellessa",
+          "J. Andres Diaz-Pace",
+          "Daniele Di Pompeo",
+          "Michele Tucci"
+        ],
+        "arxiv_id": "2402.19171v1",
+        "summary": "Several approaches have recently used automated techniques to generate architecture design alternatives by means of optimization techniques. These approaches aim at improving an initial architecture with respect to quality aspects, such as performance, reliability, or maintainability. In this context, each optimization experiment usually produces a different set of architecture alternatives that is characterized by specific settings. As a consequence, the designer is left with the task of comparing such sets to identify the settings that lead to better solution sets for the problem. To assess the quality of solution sets, multi-objective optimization commonly relies on quality indicators. Among these, the quality indicator for the maximum spread estimates the diversity of the generated alternatives, providing a measure of how much of the solution space has been explored. However, the maximum spread indicator is computed only on the objective space and does not consider architectural information (e.g., components structure, design decisions) from the architectural space. In this paper, we propose a quality indicator for the spread that assesses the diversity of alternatives by taking into account architectural features. To compute the spread, we rely on a notion of distance between alternatives according to the way they were generated during the optimization. We demonstrate how our architectural quality indicator can be applied to a dataset from the literature.",
+        "published": "2024-02-29 13:52:39+00:00",
+        "pdf_url": "https://arxiv.org/pdf/2402.19171v1",
+        "analysis": {
+          "main_contribution": "The paper introduces an architectural spread quality indicator that extends the traditional maximum spread metric by incorporating architectural feature distances, enabling more informed comparison of design alternative sets generated by multi\u2011objective optimization.",
+          "methodology": "Define a distance function between architecture alternatives based on their generation history and structural attributes; compute the spread over this distance space; evaluate the indicator on a published dataset of software architecture alternatives produced by automated refactoring techniques.",
+          "datasets_used": [
+            "Dataset from existing literature on automated architecture design (specific source not named in excerpt)"
+          ],
+          "key_findings": [
+            "1. The architectural spread indicator captures diversity that objective\u2011space metrics miss, revealing differences between solution sets.\n2. Applying the indicator to a real dataset demonstrates its practical utility for guiding configuration choices in multi\u2011objective optimization."
+          ],
+          "limitations": "Relies on a single literature dataset; distance definition depends on generation history and may not generalize across all architectural domains.",
+          "future_work": "Extend evaluation to multiple datasets and domains, refine distance metrics to include richer architectural features, integrate the indicator into automated decision support tools for designers.",
+          "innovation_score": 6,
+          "score_reasoning": "The work presents a novel extension of an existing quality metric by incorporating architectural information, which is a clear but not revolutionary contribution.",
+          "depth": "standard"
+        }
+      },
+      "timestamp": "2026-01-18T11:50:03.262447",
+      "id": "paper_2402.19171v1"
+    },
+    {
+      "type": "huggingface_model",
+      "data": {
+        "id": "google-bert/bert-base-uncased",
+        "author": null,
+        "downloads": 38009305,
+        "likes": 2544,
+        "pipeline_tag": "fill-mask",
+        "tags": [
+          "transformers",
+          "pytorch",
+          "tf",
+          "jax",
+          "rust",
+          "coreml",
+          "onnx",
+          "safetensors",
+          "bert",
+          "fill-mask",
+          "exbert",
+          "en",
+          "dataset:bookcorpus",
+          "dataset:wikipedia",
+          "arxiv:1810.04805",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ]
+      },
+      "timestamp": "2026-01-18T11:59:37.291595",
+      "id": "hf_model_google-bert_bert-base-uncased"
+    },
+    {
+      "id": "search huggingface for Bert models"
+    },
+    {
+      "type": "huggingface_model",
+      "data": {
+        "id": "KB/bert-base-swedish-cased-ner",
+        "author": null,
+        "downloads": 5280242,
+        "likes": 8,
+        "pipeline_tag": "token-classification",
+        "tags": [
+          "transformers",
+          "pytorch",
+          "tf",
+          "jax",
+          "safetensors",
+          "bert",
+          "token-classification",
+          "sv",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ]
+      },
+      "timestamp": "2026-01-18T11:59:37.497209",
+      "id": "hf_model_KB_bert-base-swedish-cased-ner"
+    },
+    {
+      "type": "huggingface_model",
+      "data": {
+        "id": "google-bert/bert-base-multilingual-uncased",
+        "author": null,
+        "downloads": 4551675,
+        "likes": 151,
+        "pipeline_tag": "fill-mask",
+        "tags": [
+          "transformers",
+          "pytorch",
+          "tf",
+          "jax",
+          "safetensors",
+          "bert",
+          "fill-mask",
+          "multilingual",
+          "af",
+          "sq",
+          "ar",
+          "an",
+          "hy",
+          "ast",
+          "az",
+          "ba",
+          "eu",
+          "bar",
+          "be",
+          "bn",
+          "inc",
+          "bs",
+          "br",
+          "bg",
+          "my",
+          "ca",
+          "ceb",
+          "ce",
+          "zh",
+          "cv",
+          "hr",
+          "cs",
+          "da",
+          "nl",
+          "en",
+          "et",
+          "fi",
+          "fr",
+          "gl",
+          "ka",
+          "de",
+          "el",
+          "gu",
+          "ht",
+          "he",
+          "hi",
+          "hu",
+          "is",
+          "io",
+          "id",
+          "ga",
+          "it",
+          "ja",
+          "jv",
+          "kn",
+          "kk",
+          "ky",
+          "ko",
+          "la",
+          "lv",
+          "lt",
+          "roa",
+          "nds",
+          "lm",
+          "mk",
+          "mg",
+          "ms",
+          "ml",
+          "mr",
+          "min",
+          "ne",
+          "new",
+          "nb",
+          "nn",
+          "oc",
+          "fa",
+          "pms",
+          "pl",
+          "pt",
+          "pa",
+          "ro",
+          "ru",
+          "sco",
+          "sr",
+          "scn",
+          "sk",
+          "sl",
+          "aze",
+          "es",
+          "su",
+          "sw",
+          "sv",
+          "tl",
+          "tg",
+          "ta",
+          "tt",
+          "te",
+          "tr",
+          "uk",
+          "ud",
+          "uz",
+          "vi",
+          "vo",
+          "war",
+          "cy",
+          "fry",
+          "pnb",
+          "yo",
+          "dataset:wikipedia",
+          "arxiv:1810.04805",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ]
+      },
+      "timestamp": "2026-01-18T11:59:37.576600",
+      "id": "hf_model_google-bert_bert-base-multilingual-uncased"
+    },
+    {
+      "type": "huggingface_model",
+      "data": {
+        "id": "google-bert/bert-base-multilingual-cased",
+        "author": null,
+        "downloads": 3622093,
+        "likes": 566,
+        "pipeline_tag": "fill-mask",
+        "tags": [
+          "transformers",
+          "pytorch",
+          "tf",
+          "jax",
+          "safetensors",
+          "bert",
+          "fill-mask",
+          "multilingual",
+          "af",
+          "sq",
+          "ar",
+          "an",
+          "hy",
+          "ast",
+          "az",
+          "ba",
+          "eu",
+          "bar",
+          "be",
+          "bn",
+          "inc",
+          "bs",
+          "br",
+          "bg",
+          "my",
+          "ca",
+          "ceb",
+          "ce",
+          "zh",
+          "cv",
+          "hr",
+          "cs",
+          "da",
+          "nl",
+          "en",
+          "et",
+          "fi",
+          "fr",
+          "gl",
+          "ka",
+          "de",
+          "el",
+          "gu",
+          "ht",
+          "he",
+          "hi",
+          "hu",
+          "is",
+          "io",
+          "id",
+          "ga",
+          "it",
+          "ja",
+          "jv",
+          "kn",
+          "kk",
+          "ky",
+          "ko",
+          "la",
+          "lv",
+          "lt",
+          "roa",
+          "nds",
+          "lm",
+          "mk",
+          "mg",
+          "ms",
+          "ml",
+          "mr",
+          "mn",
+          "min",
+          "ne",
+          "new",
+          "nb",
+          "nn",
+          "oc",
+          "fa",
+          "pms",
+          "pl",
+          "pt",
+          "pa",
+          "ro",
+          "ru",
+          "sco",
+          "sr",
+          "scn",
+          "sk",
+          "sl",
+          "aze",
+          "es",
+          "su",
+          "sw",
+          "sv",
+          "tl",
+          "tg",
+          "th",
+          "ta",
+          "tt",
+          "te",
+          "tr",
+          "uk",
+          "ud",
+          "uz",
+          "vi",
+          "vo",
+          "war",
+          "cy",
+          "fry",
+          "pnb",
+          "yo",
+          "dataset:wikipedia",
+          "arxiv:1810.04805",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ]
+      },
+      "timestamp": "2026-01-18T11:59:37.722599",
+      "id": "hf_model_google-bert_bert-base-multilingual-cased"
+    },
+    {
+      "type": "downloaded_dataset",
+      "data": {
+        "dataset_ref": "zphudzz/tweets-clean-posneg-v1",
+        "path": "kaggle_datasets\\zphudzz_tweets-clean-posneg-v1",
+        "files": [
+          "kaggle_datasets\\zphudzz_tweets-clean-posneg-v1\\final_clean_no_neutral_no_duplicates.csv",
+          "kaggle_datasets\\zphudzz_tweets-clean-posneg-v1\\final_clean_no_neutral_no_duplicates_v1.csv"
+        ],
+        "file_summary": {
+          "csv_count": 2,
+          "image_count": 0,
+          "json_count": 0,
+          "primary_type": "csv",
+          "csv_files": [
+            "kaggle_datasets\\zphudzz_tweets-clean-posneg-v1\\final_clean_no_neutral_no_duplicates.csv",
+            "kaggle_datasets\\zphudzz_tweets-clean-posneg-v1\\final_clean_no_neutral_no_duplicates_v1.csv"
+          ]
+        },
+        "cached": false
+      },
+      "timestamp": "2026-01-18T12:00:30.388612",
+      "id": "downloaded_kaggle_zphudzz_tweets-clean-posneg-v1"
+    },
+    {
+      "type": "huggingface_model",
+      "data": {
+        "id": "sentence-transformers-testing/stsb-bert-tiny-onnx",
+        "author": null,
+        "downloads": 1194,
+        "likes": 0,
+        "pipeline_tag": "sentence-similarity",
+        "tags": [
+          "sentence-transformers",
+          "onnx",
+          "safetensors",
+          "bert",
+          "feature-extraction",
+          "sentence-similarity",
+          "transformers",
+          "text-embeddings-inference",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ]
+      },
+      "timestamp": "2026-01-18T12:30:25.256561",
+      "id": "hf_model_sentence-transformers-testing_stsb-bert-tiny-onnx"
+    },
+    {
+      "id": "search bert models on huggingface"
+    },
+    {
+      "type": "huggingface_model",
+      "data": {
+        "id": "sentence-transformers-testing/stsb-bert-tiny-openvino-quantized-only",
+        "author": null,
+        "downloads": 743,
+        "likes": 0,
+        "pipeline_tag": "sentence-similarity",
+        "tags": [
+          "sentence-transformers",
+          "safetensors",
+          "openvino",
+          "bert",
+          "feature-extraction",
+          "sentence-similarity",
+          "transformers",
+          "text-embeddings-inference",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ]
+      },
+      "timestamp": "2026-01-18T12:30:25.557313",
+      "id": "hf_model_sentence-transformers-testing_stsb-bert-tiny-openvino-quantized-only"
+    },
+    {
+      "type": "huggingface_model",
+      "data": {
+        "id": "BricksDisplay/ellie-Bert-VITS2-small-onnx",
+        "author": null,
+        "downloads": 306,
+        "likes": 1,
+        "pipeline_tag": "text-to-speech",
+        "tags": [
+          "transformers.js",
+          "onnx",
+          "bert_vits2",
+          "feature-extraction",
+          "text-to-speech",
+          "custom_code",
+          "zh",
+          "base_model:BricksDisplay/ellie-Bert-VITS2",
+          "base_model:finetune:BricksDisplay/ellie-Bert-VITS2",
+          "license:cc-by-4.0",
+          "region:us"
+        ]
+      },
+      "timestamp": "2026-01-18T12:30:25.597885",
+      "id": "hf_model_BricksDisplay_ellie-Bert-VITS2-small-onnx"
+    },
+    {
+      "type": "huggingface_model",
+      "data": {
+        "id": "Arcoldd/llmlingua4j-bert-base-onnx",
+        "author": null,
+        "downloads": 283,
+        "likes": 0,
+        "pipeline_tag": null,
+        "tags": [
+          "onnx",
+          "bert",
+          "base_model:microsoft/llmlingua-2-bert-base-multilingual-cased-meetingbank",
+          "base_model:quantized:microsoft/llmlingua-2-bert-base-multilingual-cased-meetingbank",
+          "license:mit",
+          "region:us"
+        ]
+      },
+      "timestamp": "2026-01-18T12:30:25.657249",
+      "id": "hf_model_Arcoldd_llmlingua4j-bert-base-onnx"
+    },
+    {
+      "type": "huggingface_model",
+      "data": {
+        "id": "cross-encoder-testing/reranker-bert-tiny-gooaq-bce-onnx",
+        "author": null,
+        "downloads": 278,
+        "likes": 0,
+        "pipeline_tag": "text-ranking",
+        "tags": [
+          "sentence-transformers",
+          "onnx",
+          "safetensors",
+          "bert",
+          "cross-encoder",
+          "text-classification",
+          "generated_from_trainer",
+          "dataset_size:578402",
+          "loss:BinaryCrossEntropyLoss",
+          "text-ranking",
+          "en",
+          "arxiv:1908.10084",
+          "base_model:prajjwal1/bert-tiny",
+          "base_model:quantized:prajjwal1/bert-tiny",
+          "license:apache-2.0",
+          "co2_eq_emissions",
+          "region:us"
+        ]
+      },
+      "timestamp": "2026-01-18T12:30:25.703194",
+      "id": "hf_model_cross-encoder-testing_reranker-bert-tiny-gooaq-bce-onnx"
+    },
+    {
+      "id": "Search Huggingface for small models"
+    },
+    {
+      "type": "huggingface_model",
+      "data": {
+        "id": "google-t5/t5-small",
+        "author": null,
+        "downloads": 3011071,
+        "likes": 523,
+        "pipeline_tag": "translation",
+        "tags": [
+          "transformers",
+          "pytorch",
+          "tf",
+          "jax",
+          "rust",
+          "onnx",
+          "safetensors",
+          "t5",
+          "text2text-generation",
+          "summarization",
+          "translation",
+          "en",
+          "fr",
+          "ro",
+          "de",
+          "multilingual",
+          "dataset:c4",
+          "arxiv:1805.12471",
+          "arxiv:1708.00055",
+          "arxiv:1704.05426",
+          "arxiv:1606.05250",
+          "arxiv:1808.09121",
+          "arxiv:1810.12885",
+          "arxiv:1905.10044",
+          "arxiv:1910.09700",
+          "license:apache-2.0",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ]
+      },
+      "timestamp": "2026-01-18T12:40:26.477076",
+      "id": "hf_model_google-t5_t5-small"
+    },
+    {
+      "type": "huggingface_model",
+      "data": {
+        "id": "nlpaueb/legal-bert-small-uncased",
+        "author": null,
+        "downloads": 1587289,
+        "likes": 23,
+        "pipeline_tag": "fill-mask",
+        "tags": [
+          "transformers",
+          "pytorch",
+          "tf",
+          "jax",
+          "bert",
+          "legal",
+          "fill-mask",
+          "en",
+          "license:cc-by-sa-4.0",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ]
+      },
+      "timestamp": "2026-01-18T12:40:53.347720",
+      "id": "hf_model_nlpaueb_legal-bert-small-uncased"
+    },
+    {
+      "id": "Search huggingface for small bert models"
+    },
+    {
+      "type": "huggingface_model",
+      "data": {
+        "id": "prajjwal1/bert-small",
+        "author": null,
+        "downloads": 181093,
+        "likes": 26,
+        "pipeline_tag": null,
+        "tags": [
+          "transformers",
+          "pytorch",
+          "BERT",
+          "MNLI",
+          "NLI",
+          "transformer",
+          "pre-training",
+          "en",
+          "arxiv:1908.08962",
+          "arxiv:2110.01518",
+          "license:mit",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      "timestamp": "2026-01-18T12:40:53.474911",
+      "id": "hf_model_prajjwal1_bert-small"
+    },
+    {
+      "type": "huggingface_model",
+      "data": {
+        "id": "gravitee-io/bert-small-pii-detection",
+        "author": null,
+        "downloads": 10412,
+        "likes": 3,
+        "pipeline_tag": "token-classification",
+        "tags": [
+          "onnx",
+          "safetensors",
+          "bert",
+          "token-classification",
+          "en",
+          "dataset:beki/privy",
+          "dataset:gretelai/synthetic_pii_finance_multilingual",
+          "dataset:eriktks/conll2003",
+          "arxiv:2110.01518",
+          "arxiv:1908.08962",
+          "base_model:prajjwal1/bert-small",
+          "base_model:quantized:prajjwal1/bert-small",
+          "license:apache-2.0",
+          "region:us"
+        ]
+      },
+      "timestamp": "2026-01-18T12:40:53.530451",
+      "id": "hf_model_gravitee-io_bert-small-pii-detection"
+    },
+    {
+      "type": "huggingface_model",
+      "data": {
+        "id": "mrm8488/bert-small2bert-small-finetuned-cnn_daily_mail-summarization",
+        "author": null,
+        "downloads": 992,
+        "likes": 10,
+        "pipeline_tag": "summarization",
+        "tags": [
+          "transformers",
+          "pytorch",
+          "encoder-decoder",
+          "text2text-generation",
+          "summarization",
+          "en",
+          "dataset:cnn_dailymail",
+          "license:apache-2.0",
+          "endpoints_compatible",
+          "deploy:azure",
+          "region:us"
+        ]
+      },
+      "timestamp": "2026-01-18T12:40:53.573608",
+      "id": "hf_model_mrm8488_bert-small2bert-small-finetuned-cnn_daily_mail-summarization"
+    },
+    {
+      "type": "huggingface_model",
+      "data": {
+        "id": "YituTech/conv-bert-small",
+        "author": null,
+        "downloads": 553,
+        "likes": 2,
+        "pipeline_tag": "feature-extraction",
+        "tags": [
+          "transformers",
+          "pytorch",
+          "tf",
+          "convbert",
+          "feature-extraction",
+          "endpoints_compatible",
+          "region:us"
+        ]
+      },
+      "timestamp": "2026-01-18T12:40:53.612702",
+      "id": "hf_model_YituTech_conv-bert-small"
+    },
+    {
+      "type": "downloaded_model",
+      "data": {
+        "model_id": "nlpaueb/legal-bert-small-uncased",
+        "path": "hf_cache\\models--nlpaueb--legal-bert-small-uncased\\snapshots\\0e23f7a9a39f59768ea7e09766d8ee308580fb17"
+      },
+      "timestamp": "2026-01-18T12:43:58.157366",
+      "id": "hf_downloaded_nlpaueb_legal-bert-small-uncased"
+    },
+    {
+      "type": "downloaded_dataset",
+      "data": {
+        "dataset_ref": "crowdflower/twitter-airline-sentiment",
+        "path": "kaggle_datasets\\crowdflower_twitter-airline-sentiment",
+        "files": [
+          "kaggle_datasets\\crowdflower_twitter-airline-sentiment\\database.sqlite",
+          "kaggle_datasets\\crowdflower_twitter-airline-sentiment\\Tweets.csv"
+        ],
+        "file_summary": {
+          "csv_count": 1,
+          "image_count": 0,
+          "json_count": 0,
+          "primary_type": "csv",
+          "csv_files": [
+            "kaggle_datasets\\crowdflower_twitter-airline-sentiment\\Tweets.csv"
+          ]
+        },
+        "cached": false
+      },
+      "timestamp": "2026-01-18T12:45:29.255912",
+      "id": "downloaded_kaggle_crowdflower_twitter-airline-sentiment"
+    },
+    {
+      "type": "downloaded_dataset",
+      "data": {
+        "dataset_ref": "datasnaek/youtube-new",
+        "path": "kaggle_datasets\\datasnaek_youtube-new",
+        "files": [
+          "kaggle_datasets\\datasnaek_youtube-new\\CAvideos.csv",
+          "kaggle_datasets\\datasnaek_youtube-new\\CA_category_id.json",
+          "kaggle_datasets\\datasnaek_youtube-new\\DEvideos.csv",
+          "kaggle_datasets\\datasnaek_youtube-new\\DE_category_id.json",
+          "kaggle_datasets\\datasnaek_youtube-new\\FRvideos.csv",
+          "kaggle_datasets\\datasnaek_youtube-new\\FR_category_id.json",
+          "kaggle_datasets\\datasnaek_youtube-new\\GBvideos.csv",
+          "kaggle_datasets\\datasnaek_youtube-new\\GB_category_id.json",
+          "kaggle_datasets\\datasnaek_youtube-new\\INvideos.csv",
+          "kaggle_datasets\\datasnaek_youtube-new\\IN_category_id.json",
+          "kaggle_datasets\\datasnaek_youtube-new\\JPvideos.csv",
+          "kaggle_datasets\\datasnaek_youtube-new\\JP_category_id.json",
+          "kaggle_datasets\\datasnaek_youtube-new\\KRvideos.csv",
+          "kaggle_datasets\\datasnaek_youtube-new\\KR_category_id.json",
+          "kaggle_datasets\\datasnaek_youtube-new\\MXvideos.csv",
+          "kaggle_datasets\\datasnaek_youtube-new\\MX_category_id.json",
+          "kaggle_datasets\\datasnaek_youtube-new\\RUvideos.csv",
+          "kaggle_datasets\\datasnaek_youtube-new\\RU_category_id.json",
+          "kaggle_datasets\\datasnaek_youtube-new\\USvideos.csv",
+          "kaggle_datasets\\datasnaek_youtube-new\\US_category_id.json"
+        ],
+        "file_summary": {
+          "csv_count": 10,
+          "image_count": 0,
+          "json_count": 10,
+          "primary_type": "csv",
+          "csv_files": [
+            "kaggle_datasets\\datasnaek_youtube-new\\CAvideos.csv",
+            "kaggle_datasets\\datasnaek_youtube-new\\DEvideos.csv",
+            "kaggle_datasets\\datasnaek_youtube-new\\FRvideos.csv",
+            "kaggle_datasets\\datasnaek_youtube-new\\GBvideos.csv",
+            "kaggle_datasets\\datasnaek_youtube-new\\INvideos.csv"
+          ]
+        },
+        "cached": false
+      },
+      "timestamp": "2026-01-18T12:47:54.271320",
+      "id": "downloaded_kaggle_datasnaek_youtube-new"
     }
   ],
   "links": [
@@ -5197,31 +6778,31 @@
     },
     {
       "relationship": "search_result",
-      "timestamp": "2026-01-05T19:38:54.824882",
+      "timestamp": "2026-01-15T14:45:52.050661",
       "source": "Find papers about machine learning",
       "target": "paper_2306.04338v1"
     },
     {
       "relationship": "search_result",
-      "timestamp": "2026-01-05T19:38:54.846844",
+      "timestamp": "2026-01-15T14:45:52.082727",
       "source": "Find papers about machine learning",
       "target": "paper_2006.16189v4"
     },
     {
       "relationship": "search_result",
-      "timestamp": "2026-01-05T19:38:54.875062",
+      "timestamp": "2026-01-15T14:45:52.116767",
       "source": "Find papers about machine learning",
       "target": "paper_2201.12150v2"
     },
     {
       "relationship": "search_result",
-      "timestamp": "2026-01-05T19:38:54.904105",
+      "timestamp": "2026-01-15T14:45:52.151582",
       "source": "Find papers about machine learning",
       "target": "paper_2302.08893v4"
     },
     {
       "relationship": "search_result",
-      "timestamp": "2026-01-05T19:38:54.923967",
+      "timestamp": "2026-01-15T14:45:52.188818",
       "source": "Find papers about machine learning",
       "target": "paper_2304.02381v2"
     },
@@ -6052,6 +7633,378 @@
       "timestamp": "2026-01-06T13:51:33.065339",
       "source": "Search arxiv for papers on diffusion models",
       "target": "paper_0703020v3"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-12T19:43:50.438013",
+      "source": "Find papers on world models",
+      "target": "paper_2503.04421v1"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-12T19:43:50.498231",
+      "source": "Find papers on world models",
+      "target": "paper_2504.03861v1"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-12T19:43:50.544574",
+      "source": "Find papers on world models",
+      "target": "paper_2510.20668v1"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-12T19:43:50.591634",
+      "source": "Find papers on world models",
+      "target": "paper_2512.23676v1"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-12T19:43:50.636870",
+      "source": "Find papers on world models",
+      "target": "paper_2405.03520v2"
+    },
+    {
+      "relationship": "analyzed_as",
+      "timestamp": "2026-01-12T19:51:43.075338",
+      "source": "paper_2405.03520v2",
+      "target": "analysis_2405.03520v2"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-12T19:46:02.627079",
+      "source": "Search for papers on world models",
+      "target": "paper_2503.04421v1"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-12T19:46:02.681990",
+      "source": "Search for papers on world models",
+      "target": "paper_2504.03861v1"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-12T19:46:02.770355",
+      "source": "Search for papers on world models",
+      "target": "paper_2510.20668v1"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-12T19:46:02.809011",
+      "source": "Search for papers on world models",
+      "target": "paper_2512.23676v1"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-12T19:46:03.287449",
+      "source": "Search for papers on world models",
+      "target": "paper_2405.03520v2"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-15T14:19:24.289133",
+      "source": "Searh arxiv for papers on mindfulness",
+      "target": "paper_1005.0280v6"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-15T14:19:24.337040",
+      "source": "Searh arxiv for papers on mindfulness",
+      "target": "paper_1304.1836v2"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-15T14:19:24.376682",
+      "source": "Searh arxiv for papers on mindfulness",
+      "target": "paper_1011.5746v2"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-15T14:19:24.415216",
+      "source": "Searh arxiv for papers on mindfulness",
+      "target": "paper_1001.2258v2"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-15T14:19:24.457041",
+      "source": "Searh arxiv for papers on mindfulness",
+      "target": "paper_0703020v3"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-15T14:20:02.903457",
+      "source": "Searh arxiv for papers on transformer model architecture",
+      "target": "paper_1304.1836v2"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-15T14:20:02.943852",
+      "source": "Searh arxiv for papers on transformer model architecture",
+      "target": "paper_1005.0280v6"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-15T14:20:02.993804",
+      "source": "Searh arxiv for papers on transformer model architecture",
+      "target": "paper_1011.5746v2"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-15T14:20:03.038193",
+      "source": "Searh arxiv for papers on transformer model architecture",
+      "target": "paper_2009.00804v2"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-15T14:20:03.071184",
+      "source": "Searh arxiv for papers on transformer model architecture",
+      "target": "paper_1001.2258v2"
+    },
+    {
+      "relationship": "analyzed_as",
+      "timestamp": "2026-01-15T14:21:04.781936",
+      "source": "paper_2009.00804v2",
+      "target": "analysis_2009.00804v2"
+    },
+    {
+      "relationship": "includes_paper",
+      "timestamp": "2026-01-17T17:14:16.089899",
+      "source": "lit_review_neural machine translation",
+      "target": "paper_2412.18669v1"
+    },
+    {
+      "relationship": "includes_paper",
+      "timestamp": "2026-01-17T17:15:00.705468",
+      "source": "lit_review_neural machine translation",
+      "target": "paper_2408.16440v2"
+    },
+    {
+      "relationship": "includes_paper",
+      "timestamp": "2026-01-17T17:16:05.287879",
+      "source": "lit_review_neural machine translation",
+      "target": "paper_2307.16676v2"
+    },
+    {
+      "relationship": "includes_paper",
+      "timestamp": "2026-01-17T17:17:03.702499",
+      "source": "lit_review_neural machine translation",
+      "target": "paper_2304.14394v3"
+    },
+    {
+      "relationship": "includes_paper",
+      "timestamp": "2026-01-17T17:18:09.029530",
+      "source": "lit_review_neural machine translation",
+      "target": "paper_2205.10195v2"
+    },
+    {
+      "relationship": "includes_paper",
+      "timestamp": "2026-01-17T17:19:28.744268",
+      "source": "lit_review_neural machine translation",
+      "target": "paper_2203.07485v2"
+    },
+    {
+      "relationship": "includes_paper",
+      "timestamp": "2026-01-17T17:20:23.432012",
+      "source": "lit_review_neural machine translation",
+      "target": "paper_2102.00240v1"
+    },
+    {
+      "relationship": "includes_paper",
+      "timestamp": "2026-01-17T17:21:16.661688",
+      "source": "lit_review_neural machine translation",
+      "target": "paper_1912.03135v1"
+    },
+    {
+      "relationship": "includes_paper",
+      "timestamp": "2026-01-17T17:22:25.347310",
+      "source": "lit_review_neural machine translation",
+      "target": "paper_1912.02047v2"
+    },
+    {
+      "relationship": "includes_paper",
+      "timestamp": "2026-01-17T17:23:30.785320",
+      "source": "lit_review_neural machine translation",
+      "target": "paper_1911.08876v1"
+    },
+    {
+      "relationship": "includes_paper",
+      "timestamp": "2026-01-18T11:41:10.956150",
+      "source": "lit_review_GPT architecture",
+      "target": "paper_2601.06142v1"
+    },
+    {
+      "relationship": "includes_paper",
+      "timestamp": "2026-01-18T11:42:16.252985",
+      "source": "lit_review_GPT architecture",
+      "target": "paper_2601.03290v1"
+    },
+    {
+      "relationship": "includes_paper",
+      "timestamp": "2026-01-18T11:43:05.379188",
+      "source": "lit_review_GPT architecture",
+      "target": "paper_2505.09343v2"
+    },
+    {
+      "relationship": "includes_paper",
+      "timestamp": "2026-01-18T11:44:01.865900",
+      "source": "lit_review_GPT architecture",
+      "target": "paper_2503.21676v2"
+    },
+    {
+      "relationship": "includes_paper",
+      "timestamp": "2026-01-18T11:45:13.625415",
+      "source": "lit_review_GPT architecture",
+      "target": "paper_2501.00258v1"
+    },
+    {
+      "relationship": "includes_paper",
+      "timestamp": "2026-01-18T11:46:06.662115",
+      "source": "lit_review_GPT architecture",
+      "target": "paper_2412.20486v2"
+    },
+    {
+      "relationship": "includes_paper",
+      "timestamp": "2026-01-18T11:46:59.331985",
+      "source": "lit_review_GPT architecture",
+      "target": "paper_2408.13040v1"
+    },
+    {
+      "relationship": "includes_paper",
+      "timestamp": "2026-01-18T11:48:15.575432",
+      "source": "lit_review_GPT architecture",
+      "target": "paper_2404.05657v1"
+    },
+    {
+      "relationship": "includes_paper",
+      "timestamp": "2026-01-18T11:49:13.184097",
+      "source": "lit_review_GPT architecture",
+      "target": "paper_2403.09832v1"
+    },
+    {
+      "relationship": "includes_paper",
+      "timestamp": "2026-01-18T11:50:03.416239",
+      "source": "lit_review_GPT architecture",
+      "target": "paper_2402.19171v1"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-18T11:59:37.445120",
+      "source": "search huggingface for Bert models",
+      "target": "hf_model_google-bert_bert-base-uncased"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-18T11:59:37.535206",
+      "source": "search huggingface for Bert models",
+      "target": "hf_model_KB_bert-base-swedish-cased-ner"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-18T11:59:37.611083",
+      "source": "search huggingface for Bert models",
+      "target": "hf_model_google-bert_bert-base-multilingual-uncased"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-18T11:59:37.689460",
+      "source": "search huggingface for Bert models",
+      "target": "hf_model_prajjwal1_bert-tiny"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-18T11:59:37.772610",
+      "source": "search huggingface for Bert models",
+      "target": "hf_model_google-bert_bert-base-multilingual-cased"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-18T12:30:25.534077",
+      "source": "search bert models on huggingface",
+      "target": "hf_model_sentence-transformers-testing_stsb-bert-tiny-onnx"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-18T12:30:25.581809",
+      "source": "search bert models on huggingface",
+      "target": "hf_model_sentence-transformers-testing_stsb-bert-tiny-openvino-quantized-only"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-18T12:30:25.637145",
+      "source": "search bert models on huggingface",
+      "target": "hf_model_BricksDisplay_ellie-Bert-VITS2-small-onnx"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-18T12:30:25.671539",
+      "source": "search bert models on huggingface",
+      "target": "hf_model_Arcoldd_llmlingua4j-bert-base-onnx"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-18T12:30:25.719005",
+      "source": "search bert models on huggingface",
+      "target": "hf_model_cross-encoder-testing_reranker-bert-tiny-gooaq-bce-onnx"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-18T12:40:26.307510",
+      "source": "Search Huggingface for small models",
+      "target": "hf_model_timm_mobilenetv3_small_100.lamb_in1k"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-18T12:40:26.360604",
+      "source": "Search Huggingface for small models",
+      "target": "hf_model_autogluon_chronos-bolt-small"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-18T12:40:26.408546",
+      "source": "Search Huggingface for small models",
+      "target": "hf_model_hustvl_vitmatte-small-composition-1k"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-18T12:40:26.456417",
+      "source": "Search Huggingface for small models",
+      "target": "hf_model_BAAI_bge-small-en-v1.5"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-18T12:40:26.492802",
+      "source": "Search Huggingface for small models",
+      "target": "hf_model_google-t5_t5-small"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-18T12:40:53.431350",
+      "source": "Search huggingface for small bert models",
+      "target": "hf_model_nlpaueb_legal-bert-small-uncased"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-18T12:40:53.500106",
+      "source": "Search huggingface for small bert models",
+      "target": "hf_model_prajjwal1_bert-small"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-18T12:40:53.553263",
+      "source": "Search huggingface for small bert models",
+      "target": "hf_model_gravitee-io_bert-small-pii-detection"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-18T12:40:53.592956",
+      "source": "Search huggingface for small bert models",
+      "target": "hf_model_mrm8488_bert-small2bert-small-finetuned-cnn_daily_mail-summarization"
+    },
+    {
+      "relationship": "search_result",
+      "timestamp": "2026-01-18T12:40:53.628650",
+      "source": "Search huggingface for small bert models",
+      "target": "hf_model_YituTech_conv-bert-small"
     }
   ]
 }

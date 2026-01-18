@@ -1,0 +1,14 @@
+{
+  "model_type": "mlp",
+  "input_size": 5,
+  "output_size": 1,
+  "hidden_sizes": [
+    128,
+    64
+  ],
+  "dropout": 0.2,
+  "num_layers": 2,
+  "num_heads": 4,
+  "seq_length": 20,
+  "task_type": "regression"
+}

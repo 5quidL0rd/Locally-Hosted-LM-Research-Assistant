@@ -26,18 +26,19 @@ import sys
 # =======================================================
 # API CREDENTIALS - SET YOUR VALUES HERE
 # =======================================================
-KAGGLE_USERNAME = ""  # Your Kaggle username
-KAGGLE_KEY = ""      # Your Kaggle API key
-HUGGINGFACE_TOKEN = ""  # Get from https://huggingface.co/settings/tokens
+KAGGLE_USERNAME = ""  
+KAGGLE_KEY = ""      
+HUGGINGFACE_TOKEN = "" 
+
 
 if KAGGLE_USERNAME != "your_username_here" and KAGGLE_KEY != "your_key_here":
     os.environ['KAGGLE_USERNAME'] = KAGGLE_USERNAME
     os.environ['KAGGLE_KEY'] = KAGGLE_KEY
-    print(f"[Config] Kaggle credentials set for user: {KAGGLE_USERNAME}")
+    print(f"[Config] Kaggle credentials set for user")
 else:
     print("[Config] WARNING: Kaggle credentials not set!")
 
-# Ensure the HuggingFace token is set correctly
+
 if HUGGINGFACE_TOKEN and HUGGINGFACE_TOKEN != "your_hf_token_here":
     os.environ['HUGGINGFACE_TOKEN'] = HUGGINGFACE_TOKEN
     print(f"[Config] HuggingFace token configured")
@@ -53,28 +54,32 @@ from agents.search_agent import SearchAgent
 from agents.huggingface_agent import HuggingFaceAgent
 from agents.nn_builder_agent import NeuralNetworkBuilder
 from agents.orchestrator import ConversationalOrchestrator
+from agents.data_profiler import DataProfiler
+from agents.literature_review import LiteratureReviewAgent
+from agents.writing_assistant import WritingAssistant
 
 
 
 class ResearchAssistant:
     def __init__(self):
         print("\n[System] Initializing research assistant...")
-        
-        # Core components
+
         self.llm = LocalLLM()
         self.memory = MemoryPalace()
-        
-        # Specialized agents
+
+        # Core agents
         self.arxiv = ArxivAgent(self.llm, self.memory)
         self.kaggle = KaggleAgent(self.memory)
         self.search = SearchAgent()
         self.huggingface = HuggingFaceAgent(self.memory, api_token=HUGGINGFACE_TOKEN)
-        
-        # ADD THESE TWO LINES:
         self.nn_builder = NeuralNetworkBuilder(self.memory)
-      
-        
-        # Conversational orchestrator
+
+        # New research-focused agents
+        self.data_profiler = DataProfiler()
+        self.literature_review = LiteratureReviewAgent(self.llm, self.memory)
+        self.writing_assistant = WritingAssistant(self.llm, self.memory)
+
+        # Conversational orchestrator with all agents
         self.orchestrator = ConversationalOrchestrator(
             llm=self.llm,
             arxiv=self.arxiv,
@@ -82,7 +87,10 @@ class ResearchAssistant:
             search=self.search,
             huggingface=self.huggingface,
             memory=self.memory,
-            nn_builder = self.nn_builder
+            nn_builder=self.nn_builder,
+            data_profiler=self.data_profiler,
+            literature_review=self.literature_review,
+            writing_assistant=self.writing_assistant
         )
     
     def run(self):
@@ -91,21 +99,42 @@ class ResearchAssistant:
         print("CONVERSATIONAL RESEARCH ASSISTANT")
         print("=" * 70)
         print("\nJust talk naturally! Examples:")
-        print('  "Find papers about machine learning"')
-        print('  "Download the first paper and analyze it"')
-        print('  "Search Kaggle for bitcoin datasets"')
-        print('  "Download that dataset"')
-        print('  "Search HuggingFace for llama models"')
-        print('  "Download gpt2 and run it"')
-        print('  "Generate text with gpt2: Once upon a time"')
-        print('  "Find datasets on HuggingFace about sentiment"')
-        print('  "Search arXiv for transformers, download top 2, analyze them"')
-        print('  "Analyze the last Kaggle dataset and add plots to my report"')
-        print('  "Add the top arXiv result to my Word report"')
-        print('  "What have I researched so far?"')
-        print('  "Show me my knowledge graph"')
-        print('  "Search the web for latest AI news"')
-        print("\nType 'exit' or 'quit' to leave.\n")
+        print("")
+        print("  PAPER SEARCH & ANALYSIS:")
+        print('    "Find papers about transformer architectures"')
+        print('    "Download the first paper and analyze it"')
+        print('    "Score paper 2301.00001 on innovation"')
+        print('    "Generate literature review on neural machine translation"')
+        print("")
+        print("  KAGGLE DATASETS (Improved Search):")
+        print('    "Search Kaggle for sentiment analysis datasets"')
+        print('    "Show popular Kaggle datasets"')
+        print('    "Recommend datasets for classification"')
+        print('    "Profile this dataset" (after downloading)')
+        print("")
+        print("  NEURAL NETWORK TRAINING:")
+        print('    "Train LSTM and MLP on this dataset"')
+        print('    "Tune hyperparameters for MLP with 50 trials"')
+        print('    "List my saved models"')
+        print("")
+        print("  HUGGINGFACE MODEL FINE-TUNING:")
+        print('    "Search HuggingFace for sentiment models"')
+        print('    "Finetune bert on this dataset"')
+        print('    "Finetune distilbert with kaggle kazanova/sentiment140"')
+        print('    "Run inference with finetuned model: This movie was great!"')
+        print("")
+        print("  WRITING ASSISTANCE:")
+        print('    "Suggest citations for: attention mechanisms improve accuracy"')
+        print('    "Export my research notes to markdown"')
+        print('    "Export citations as BibTeX"')
+        print('    "Write methodology: We trained a CNN on CIFAR-10..."')
+        print("")
+        print("  MEMORY & SEARCH:")
+        print('    "What have I researched so far?"')
+        print('    "Show me my knowledge graph"')
+        print('    "Search the web for latest AI news"')
+        print("")
+        print("Type 'exit' or 'quit' to leave.\n")
         
         while True:
             try:

@@ -1,0 +1,46 @@
+{
+  "models": {
+    "20260115_142345_mlp": {
+      "path": "nn_experiments\\models\\20260115_142345_mlp",
+      "model_type": "mlp",
+      "task_type": "regression",
+      "metrics": {
+        "mse": 0.0025963056832551956,
+        "rmse": 0.05095395650246599,
+        "mae": 0.03941154479980469,
+        "r2": 0.9973381161689758
+      },
+      "created": "20260115_142345",
+      "input_size": 5,
+      "output_size": 1
+    },
+    "20260117_174211_mlp": {
+      "path": "nn_experiments\\models\\20260117_174211_mlp",
+      "model_type": "mlp",
+      "task_type": "regression",
+      "metrics": {
+        "mse": 0.05274821447917779,
+        "rmse": 0.22966979444232058,
+        "mae": 0.16346089946057962,
+        "r2": 0.9705576889080849
+      },
+      "created": "20260117_174211",
+      "input_size": 5,
+      "output_size": 1
+    },
+    "20260117_174211_lstm": {
+      "path": "nn_experiments\\models\\20260117_174211_lstm",
+      "model_type": "lstm",
+      "task_type": "regression",
+      "metrics": {
+        "mse": 1.8167766352080923,
+        "rmse": 1.3478785684207952,
+        "mae": 0.8810488844092664,
+        "r2": -0.013340008646061774
+      },
+      "created": "20260117_174212",
+      "input_size": 5,
+      "output_size": 1
+    }
+  }
+}
