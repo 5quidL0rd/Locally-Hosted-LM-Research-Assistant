@@ -141,6 +141,10 @@ User input: "{user_input}"
 
         user_lower = user_input.lower()
 
+        # Fast-path: Memory/research summary requests
+        if self._is_memory_request(user_lower):
+            return self._handle_memory(user_input)
+
         # Fast-path: Image finetuning commands
         if self._is_finetune_image_request(user_lower):
             return self._handle_finetune_image(user_input)
@@ -1019,19 +1023,105 @@ User input: "{user_input}"
     # MEMORY HANDLER
     # ============================================
 
+    def _is_memory_request(self, user_lower: str) -> bool:
+        """Check if this is a memory/research summary request"""
+        memory_keywords = [
+            'what have i research', 'what did i research', 'my research',
+            'what have i studied', 'what did i study',
+            'what have i looked', 'what did i look',
+            'what have i explored', 'what did i explore',
+            'what have i done', 'what did i do',
+            'show my research', 'show my work', 'show my progress',
+            'research history', 'research summary', 'my history',
+            'knowledge graph', 'show graph', 'visualize',
+            'what papers', 'which papers', 'papers i',
+            'show memory', 'my memory', 'recall'
+        ]
+        return any(kw in user_lower for kw in memory_keywords)
+
     def _handle_memory(self, query: str) -> str:
-        if 'visualiz' in query or 'graph' in query:
-            path = self.memory.visualize()
-            return f"Knowledge graph saved: `{path}`" if path else "Visualization failed."
+        query_lower = query.lower()
 
-        results = self.memory.search(query)
-        if results:
-            response = f"Found {len(results)} items:\n"
-            for r in results[:10]:
-                response += f"  - {r['node']} ({r['data'].get('type', 'unknown')})\n"
-            return response
+        # Check if user wants to see what they've researched
+        research_keywords = ['research', 'studied', 'looked at', 'explored',
+                           'worked on', 'done', 'history', 'summary', 'what have i']
+        wants_summary = any(kw in query_lower for kw in research_keywords)
 
-        return "No memory results found."
+        # Check if user wants visualization
+        wants_viz = 'visualiz' in query_lower or 'graph' in query_lower or 'show' in query_lower
+
+        # Get summary stats
+        stats = self.memory.get_summary_stats()
+
+        if stats['total_nodes'] == 0:
+            return "Your knowledge graph is empty. Start by searching papers, downloading datasets, or running experiments!"
+
+        # Build response
+        response = "\n" + "=" * 60 + "\n"
+        response += "YOUR RESEARCH SUMMARY\n"
+        response += "=" * 60 + "\n\n"
+
+        response += f"**Total Items:** {stats['total_nodes']}\n"
+        response += f"**Connections:** {stats['total_edges']}\n\n"
+
+        # Show breakdown by type
+        if stats.get('nodes_by_type'):
+            response += "**By Category:**\n"
+            type_labels = {
+                'arxiv_paper': 'Papers',
+                'kaggle_dataset': 'Datasets',
+                'nn_experiment': 'NN Experiments',
+                'hf_model': 'HuggingFace Models',
+                'web_search': 'Web Searches',
+                'lit_review': 'Literature Reviews'
+            }
+            for node_type, count in stats['nodes_by_type'].items():
+                label = type_labels.get(node_type, node_type)
+                response += f"  - {label}: {count}\n"
+
+        # Show recent items
+        recent = self.memory.get_recent_nodes(limit=5)
+        if recent:
+            response += "\n**Recent Activity:**\n"
+            for item in recent:
+                node_data = item.get('data', {})
+                if isinstance(node_data, dict):
+                    title = node_data.get('title', item.get('node', 'Unknown'))[:60]
+                else:
+                    title = str(item.get('node', 'Unknown'))[:60]
+                response += f"  - {title}\n"
+
+        # Show papers with high innovation scores
+        papers = [n for n, d in self.memory.graph.nodes(data=True)
+                 if d.get('type') == 'arxiv_paper']
+        if papers:
+            response += f"\n**Papers Analyzed:** {len(papers)}\n"
+
+            # Get top scored papers
+            scored_papers = []
+            for node in papers:
+                data = self.memory.graph.nodes[node].get('data', {})
+                analysis = data.get('analysis', {})
+                score = analysis.get('innovation_score', 0)
+                if score:
+                    scored_papers.append((data.get('title', node), score))
+
+            if scored_papers:
+                scored_papers.sort(key=lambda x: x[1], reverse=True)
+                response += "\n**Top Innovative Papers:**\n"
+                for title, score in scored_papers[:3]:
+                    response += f"  - [{score}/10] {title[:50]}...\n"
+
+        response += "\n" + "=" * 60 + "\n"
+
+        # Generate and open visualization
+        if wants_viz or wants_summary:
+            path = self.memory.visualize(open_browser=True)
+            if path:
+                response += f"\nKnowledge graph opened in browser!\n"
+                response += f"Saved to: `{path}`\n"
+
+        return response
 
     # ============================================
     # CONVERSATION HANDLER

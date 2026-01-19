@@ -38,7 +38,8 @@ class LocalLLM:
         model=None,
         max_turns=6
     ):
-        self.endpoint = endpoint or os.getenv(
+        # Check multiple env var names for flexibility
+        self.endpoint = endpoint or os.getenv("LM_STUDIO_URL") or os.getenv(
             "LOCAL_LLM_ENDPOINT",
             "http://127.0.0.1:1234/v1/chat/completions"
         )

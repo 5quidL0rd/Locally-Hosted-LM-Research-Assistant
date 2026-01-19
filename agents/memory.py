@@ -84,16 +84,88 @@ class MemoryPalace:
         
         return related
     
-    def visualize(self, output_path="knowledge_graph.html"):
-        """Generate interactive visualization"""
+    def visualize(self, output_path="knowledge_graph.html", open_browser=True):
+        """Generate interactive visualization and optionally open in browser"""
+        import webbrowser
+
         try:
-            net = Network(height="750px", width="100%", directed=True)
-            net.from_nx(self.graph)
-            net.save_graph(output_path)
-            print(f"[Memory Palace] Visualization saved to {output_path}")
-            return output_path
+            net = Network(height="750px", width="100%", directed=True,
+                         bgcolor="#222222", font_color="white")
+
+            # Add nodes with custom colors based on type
+            color_map = {
+                'arxiv_paper': '#4CAF50',      # Green
+                'paper_analysis': '#2196F3',   # Blue
+                'kaggle_dataset': '#FF9800',   # Orange
+                'nn_experiment': '#9C27B0',    # Purple
+                'web_search': '#00BCD4',       # Cyan
+                'hf_model': '#E91E63',         # Pink
+                'lit_review': '#FFEB3B',       # Yellow
+            }
+
+            for node, data in self.graph.nodes(data=True):
+                node_type = data.get('type', 'unknown')
+                node_data = data.get('data', {})
+
+                # Create label and title (hover text)
+                if node_type == 'arxiv_paper':
+                    label = node_data.get('title', str(node))[:50] + '...' if len(node_data.get('title', str(node))) > 50 else node_data.get('title', str(node))
+                    title = f"<b>{node_data.get('title', node)}</b><br>ArXiv: {node_data.get('arxiv_id', 'N/A')}<br>Authors: {', '.join(node_data.get('authors', [])[:3])}"
+                elif node_type == 'kaggle_dataset':
+                    label = node_data.get('title', str(node))[:40]
+                    title = f"<b>{node_data.get('title', node)}</b><br>Ref: {node_data.get('ref', 'N/A')}<br>Downloads: {node_data.get('download_count', 0):,}"
+                else:
+                    label = str(node)[:40]
+                    title = str(node)
+
+                color = color_map.get(node_type, '#757575')
+                net.add_node(node, label=label, title=title, color=color,
+                           shape='dot' if node_type == 'arxiv_paper' else 'box')
+
+            # Add edges
+            for u, v, data in self.graph.edges(data=True):
+                rel = data.get('relationship', 'related_to')
+                net.add_edge(u, v, title=rel, label=rel[:15])
+
+            # Configure physics for better layout
+            net.set_options("""
+            var options = {
+              "nodes": {
+                "font": {"size": 14}
+              },
+              "edges": {
+                "color": {"inherit": true},
+                "smooth": {"type": "continuous"}
+              },
+              "physics": {
+                "forceAtlas2Based": {
+                  "gravitationalConstant": -50,
+                  "centralGravity": 0.01,
+                  "springLength": 100,
+                  "springConstant": 0.08
+                },
+                "minVelocity": 0.75,
+                "solver": "forceAtlas2Based"
+              }
+            }
+            """)
+
+            # Get absolute path for browser
+            abs_path = os.path.abspath(output_path)
+            net.save_graph(abs_path)
+            print(f"[Memory Palace] Visualization saved to {abs_path}")
+
+            # Open in browser
+            if open_browser:
+                file_url = f"file:///{abs_path.replace(os.sep, '/')}"
+                webbrowser.open(file_url)
+                print(f"[Memory Palace] Opened in browser")
+
+            return abs_path
         except Exception as e:
             print(f"[Memory Palace] Visualization failed: {e}")
+            import traceback
+            traceback.print_exc()
             return None
     
     def search(self, query):
@@ -104,6 +176,22 @@ class MemoryPalace:
             if query_lower in str(node).lower() or query_lower in str(data.get('data', {})).lower():
                 matches.append({'node': node, 'data': data})
         return matches
+
+    def get_recent_nodes(self, limit=10):
+        """Get the most recently added nodes"""
+        nodes_with_time = []
+        for node, data in self.graph.nodes(data=True):
+            timestamp = data.get('timestamp', '')
+            nodes_with_time.append({
+                'node': node,
+                'data': data.get('data', {}),
+                'type': data.get('type', 'unknown'),
+                'timestamp': timestamp
+            })
+
+        # Sort by timestamp descending
+        nodes_with_time.sort(key=lambda x: x['timestamp'] if x['timestamp'] else '', reverse=True)
+        return nodes_with_time[:limit]
 
     def export_to_markdown(self, output_path: str = "research_notes.md",
                           include_sections: list = None) -> str:

@@ -5,12 +5,12 @@ A natural language interface to research papers, datasets, and web search.
 Talk to it like you'd talk to ChatGPT/Claude.
 
 Requirements:
-    pip install requests pymupdf ddgs sentence-transformers faiss-cpu
-    pip install arxiv kaggle networkx pyvis tiktoken
+    pip install -r requirements.txt
 
 Usage:
-    python main.py
-    
+    1. Copy .env.example to .env and fill in your credentials
+    2. python main.py
+
 Then just chat naturally:
     "Find me papers about neural networks"
     "Download that second paper"
@@ -20,31 +20,62 @@ Then just chat naturally:
 
 import os
 import sys
-
-
+from pathlib import Path
 
 # =======================================================
-# API CREDENTIALS - SET YOUR VALUES HERE
+# LOAD ENVIRONMENT VARIABLES
 # =======================================================
-KAGGLE_USERNAME = ""  
-KAGGLE_KEY = ""      
-HUGGINGFACE_TOKEN = "" 
+def load_env():
+    """Load environment variables from .env file if it exists."""
+    env_path = Path(__file__).parent / ".env"
 
+    if env_path.exists():
+        with open(env_path, 'r') as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith('#') and '=' in line:
+                    key, value = line.split('=', 1)
+                    # Clean up the key and value
+                    key = key.strip()
+                    value = value.strip()
+                    # Remove surrounding quotes if present
+                    if (value.startswith('"') and value.endswith('"')) or \
+                       (value.startswith("'") and value.endswith("'")):
+                        value = value[1:-1]
+                    os.environ.setdefault(key, value)
+        print("[Config] Loaded environment from .env file")
+    else:
+        print("[Config] No .env file found. Using system environment variables.")
+        print("[Config] Copy .env.example to .env and add your credentials.")
 
-if KAGGLE_USERNAME != "your_username_here" and KAGGLE_KEY != "your_key_here":
+# Load .env before anything else
+load_env()
+
+# =======================================================
+# GET CREDENTIALS FROM ENVIRONMENT
+# =======================================================
+KAGGLE_USERNAME = os.environ.get('KAGGLE_USERNAME', '')
+KAGGLE_KEY = os.environ.get('KAGGLE_KEY', '')
+HUGGINGFACE_TOKEN = os.environ.get('HUGGINGFACE_TOKEN', '')
+LM_STUDIO_URL = os.environ.get('LM_STUDIO_URL', 'http://localhost:1234/v1')
+
+# Validate and set Kaggle credentials
+if KAGGLE_USERNAME and KAGGLE_KEY:
     os.environ['KAGGLE_USERNAME'] = KAGGLE_USERNAME
     os.environ['KAGGLE_KEY'] = KAGGLE_KEY
-    print(f"[Config] Kaggle credentials set for user")
+    print(f"[Config] Kaggle credentials configured for user: {KAGGLE_USERNAME}")
 else:
     print("[Config] WARNING: Kaggle credentials not set!")
+    print("[Config] Set KAGGLE_USERNAME and KAGGLE_KEY in .env file")
 
-
-if HUGGINGFACE_TOKEN and HUGGINGFACE_TOKEN != "your_hf_token_here":
+# Validate HuggingFace token
+if HUGGINGFACE_TOKEN:
     os.environ['HUGGINGFACE_TOKEN'] = HUGGINGFACE_TOKEN
-    print(f"[Config] HuggingFace token configured")
+    print("[Config] HuggingFace token configured")
 else:
-    print("[Config] WARNING: HuggingFace token not set or invalid!")
-# =======================================================
+    print("[Config] WARNING: HuggingFace token not set!")
+    print("[Config] Set HUGGINGFACE_TOKEN in .env file for model downloads")
+
 
 from agents.llm import LocalLLM
 from agents.memory import MemoryPalace
@@ -64,7 +95,7 @@ class ResearchAssistant:
     def __init__(self):
         print("\n[System] Initializing research assistant...")
 
-        self.llm = LocalLLM()
+        self.llm = LocalLLM(endpoint=LM_STUDIO_URL)
         self.memory = MemoryPalace()
 
         # Core agents
@@ -92,7 +123,7 @@ class ResearchAssistant:
             literature_review=self.literature_review,
             writing_assistant=self.writing_assistant
         )
-    
+
     def run(self):
         """Main conversational loop"""
         print("=" * 70)
@@ -135,7 +166,7 @@ class ResearchAssistant:
         print('    "Search the web for latest AI news"')
         print("")
         print("Type 'exit' or 'quit' to leave.\n")
-        
+
         while True:
             try:
                 user_input = input("You: ").strip()
@@ -144,14 +175,14 @@ class ResearchAssistant:
                 break
             except Exception as e:
                 print(f"\nInput error: {e}")
-            
+
             if not user_input:
                 continue
-            
+
             if user_input.lower() in ['exit', 'quit', 'bye', 'goodbye']:
                 print("\nGoodbye!")
                 break
-            
+
             # Let the orchestrator handle the conversation
             response = self.orchestrator.process(user_input)
             print(f"\nAssistant: {response}\n")
