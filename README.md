@@ -4,9 +4,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-A locally-hosted multi-agent AI research assistant that performs literature reviews, manages datasets, trains neural networks, fine-tunes language models, and generates citations—all through natural conversation.
+A locally-hosted multi-agent AI research assistant that performs in-depth, opinionated literature reviews, manages and analyzes datasets, trains neural networks from scratch independently, fine-tunes language models it also downloads, generates citations, creates and crafts a visual graph of your research journey--all through natural language conversation. You have total control of your data in this integrated pipeline developed specifically for advanced AI research. 
 
-**The idea is simple:** instead of juggling between arXiv, Google Scholar, Kaggle, HuggingFace, and various Python scripts, you just talk to it. *"Find me papers about transformers"*, *"download that dataset"*, *"train an LSTM on it"*, *"fine-tune BERT on this data"*. It figures out what you want and does it.
+**The idea is simple:** instead of juggling between arXiv, Google Scholar, Kaggle, HuggingFace, various Python scripts, and a few models that start demanding money after a little bit of research, you just talk to your own private model. *"Perform an in-depth literature review on transformers"*, *"download that dataset and create a profile on it"*, *"train an LSTM on aforementioned dataset"*, *"download and fine-tune BERT on this data"*. It figures out what you want and does it.
 
 ![Start Screen](screenshots/start.png)
 
@@ -16,14 +16,15 @@ A locally-hosted multi-agent AI research assistant that performs literature revi
 
 ### Paper Search & Analysis
 
-Search arXiv using natural language, download papers, and get detailed analysis with innovation scoring.
+Search arXiv using natural language, download papers, and get detailed analysis with innovation scoring. 
 
 ![Paper Evaluation](screenshots/Paper_Evaluation.png)
 
 - Search arXiv using natural language queries
 - Download and analyze papers with automatic PDF parsing
 - **Innovation scoring system** (1-10) rating papers on novelty, technical depth, and impact
-- Automated literature reviews with theme synthesis and gap identification
+- Automated literature reviews with theme synthesis and **gap identification**
+- Helps point out potential paths for further research that could illuminate whatever field you are investigating 
 
 ![Research Gap Analysis](screenshots/research_gaps.png)
 
@@ -61,7 +62,7 @@ Search Kaggle, download datasets, and get automatic profiling with statistics an
 
 ### Neural Network Training
 
-Train MLP, LSTM, CNN, or Transformer models on your data without writing code.
+Train MLP, LSTM, CNN, or Transformer models on your data **without writing code.**
 
 ![Training Neural Network](screenshots/training_neural_network.png)
 
@@ -71,6 +72,7 @@ Train MLP, LSTM, CNN, or Transformer models on your data without writing code.
 - Automatic data preprocessing, architecture selection, and evaluation
 - **Hyperparameter tuning** with Optuna
 - Model saving, loading, and comparison
+- An AI building smaller AI from scratch in a bit of a meta way 
 
 ```
 "Train LSTM and MLP on this dataset"
@@ -95,6 +97,7 @@ Search, download, and fine-tune models from HuggingFace Hub.
 - **Fine-tune text classifiers** (sentiment, topic classification)
 - Fine-tune directly on CSV files or Kaggle datasets
 - Run inference with your fine-tuned models
+(I hope you have a lot of VRAM) 
 
 ```
 "Search HuggingFace for sentiment models"
@@ -115,6 +118,7 @@ Get citation suggestions and export your research notes.
 - Export research notes to Markdown
 - Generate BibTeX files for LaTeX
 - Help writing methodology sections
+- Keep all your citations in a neatly organized place downloaded automatically to your computer instead of juggling different software 
 
 ```
 "Suggest citations for: attention mechanisms improve translation accuracy"
