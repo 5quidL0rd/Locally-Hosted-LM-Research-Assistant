@@ -8,13 +8,24 @@ A locally-hosted multi-agent AI research assistant that performs literature revi
 
 **The idea is simple:** instead of juggling between arXiv, Google Scholar, Kaggle, HuggingFace, and various Python scripts, you just talk to it. *"Find me papers about transformers"*, *"download that dataset"*, *"train an LSTM on it"*, *"fine-tune BERT on this data"*. It figures out what you want and does it.
 
+![Start Screen](screenshots/start.png)
+
+---
+
 ## Features
 
 ### Paper Search & Analysis
+
+Search arXiv using natural language, download papers, and get detailed analysis with innovation scoring.
+
+![Paper Evaluation](screenshots/Paper_Evaluation.png)
+
 - Search arXiv using natural language queries
 - Download and analyze papers with automatic PDF parsing
 - **Innovation scoring system** (1-10) rating papers on novelty, technical depth, and impact
 - Automated literature reviews with theme synthesis and gap identification
+
+![Research Gap Analysis](screenshots/research_gaps.png)
 
 ```
 "Find papers about attention mechanisms"
@@ -23,7 +34,18 @@ A locally-hosted multi-agent AI research assistant that performs literature revi
 "Generate a literature review on neural machine translation"
 ```
 
+---
+
 ### Dataset Management
+
+Search Kaggle, download datasets, and get automatic profiling with statistics and visualizations.
+
+![Dataset Profile](screenshots/dataset_profile.png)
+
+![Dataset Visualization](screenshots/dataset_visualization.png)
+
+![Outlier Detection](screenshots/dataset_outliers.png)
+
 - Search Kaggle with improved query handling and synonym expansion
 - Browse popular datasets or get task-specific recommendations
 - **Automatic dataset profiling** with statistics, visualizations, and quality scores
@@ -35,7 +57,16 @@ A locally-hosted multi-agent AI research assistant that performs literature revi
 "Profile this dataset"
 ```
 
+---
+
 ### Neural Network Training
+
+Train MLP, LSTM, CNN, or Transformer models on your data without writing code.
+
+![Training Neural Network](screenshots/training_neural_network.png)
+
+![Training Evaluation](screenshots/training_eval.png)
+
 - Train **MLP, LSTM, CNN, or Transformer** models on tabular data without writing code
 - Automatic data preprocessing, architecture selection, and evaluation
 - **Hyperparameter tuning** with Optuna
@@ -48,7 +79,18 @@ A locally-hosted multi-agent AI research assistant that performs literature revi
 "Make predictions with the best model"
 ```
 
+---
+
 ### HuggingFace Integration
+
+Search, download, and fine-tune models from HuggingFace Hub.
+
+![HuggingFace Search](screenshots/huggingface_search.png)
+
+![BERT Download](screenshots/bert_download.png)
+
+![Fine-tuning](screenshots/fine-tuning.png)
+
 - Search and download models from HuggingFace Hub
 - **Fine-tune text classifiers** (sentiment, topic classification)
 - Fine-tune directly on CSV files or Kaggle datasets
@@ -61,7 +103,14 @@ A locally-hosted multi-agent AI research assistant that performs literature revi
 "Run inference with finetuned model: This movie was great!"
 ```
 
+---
+
 ### Writing Assistance
+
+Get citation suggestions and export your research notes.
+
+![Citations](screenshots/citations.png)
+
 - Get citation suggestions for claims in your writing
 - Export research notes to Markdown
 - Generate BibTeX files for LaTeX
@@ -73,7 +122,14 @@ A locally-hosted multi-agent AI research assistant that performs literature revi
 "Export citations as BibTeX"
 ```
 
+---
+
 ### Knowledge Graph & Memory
+
+Everything you research is tracked in a persistent knowledge graph.
+
+![Knowledge Graph](screenshots/knowledge_graph.png)
+
 - Persistent knowledge graph tracking all your research
 - Visualize connections between papers, datasets, and experiments
 - Query your research history
@@ -82,6 +138,8 @@ A locally-hosted multi-agent AI research assistant that performs literature revi
 "What have I researched so far?"
 "Show me my knowledge graph"
 ```
+
+---
 
 ## Installation
 
@@ -94,8 +152,8 @@ A locally-hosted multi-agent AI research assistant that performs literature revi
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/multi-agent-research-assistant.git
-cd multi-agent-research-assistant
+git clone https://github.com/5quidL0rd/Locally-Hosted-LM-Research-Assistant.git
+cd Locally-Hosted-LM-Research-Assistant
 ```
 
 2. **Install dependencies**
@@ -132,6 +190,8 @@ LM_STUDIO_URL=http://localhost:1234/v1
 
 - **Kaggle**: Get credentials from [kaggle.com/settings](https://www.kaggle.com/settings) → API → Create New Token
 - **HuggingFace**: Get token from [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens)
+
+---
 
 ## Architecture
 
@@ -176,6 +236,8 @@ The system uses a multi-agent architecture with specialized agents coordinated b
 | **Search Agent** | Web search for current information |
 | **Memory Palace** | Persistent knowledge graph across sessions |
 
+---
+
 ## Project Structure
 
 ```
@@ -204,40 +266,7 @@ The system uses a multi-agent architecture with specialized agents coordinated b
 └── writing_output/             # Exported notes and citations
 ```
 
-## Usage Examples
-
-### Research Workflow
-```
-You: Find papers about vision transformers in medical imaging
-Assistant: Found 5 papers...
-
-You: Download the first two and analyze them
-Assistant: [Downloads PDFs, extracts content, provides analysis with innovation scores]
-
-You: Generate a literature review on this topic
-Assistant: [Creates comprehensive review with themes, gaps, and citations]
-
-You: Export citations as BibTeX
-Assistant: [Exports formatted citations to .bib file]
-```
-
-### ML Workflow
-```
-You: Search Kaggle for heart disease datasets
-Assistant: Found 8 datasets...
-
-You: Download the first one
-Assistant: Downloaded to kaggle_datasets/...
-
-You: Profile this dataset
-Assistant: [Generates statistics, visualizations, quality score]
-
-You: Train MLP and LSTM to predict the target
-Assistant: [Trains models, shows metrics, saves best model]
-
-You: Tune hyperparameters for the best model
-Assistant: [Runs Optuna optimization, reports best parameters]
-```
+---
 
 ## Limitations
 
